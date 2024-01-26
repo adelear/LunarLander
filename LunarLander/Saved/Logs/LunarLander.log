@@ -1182,3 +1182,1230 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2024.01.26-20.31.34:368][ 15]PIE: Server logged in
 [2024.01.26-20.31.34:369][ 15]PIE: Play in editor total start time 0.198 seconds.
 [2024.01.26-20.35.13:700][355]LogDerivedDataCache: C:/Users/veron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:57.348 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 51435 files in 50772 folders with total size 6705 MiB.
+[2024.01.26-20.39.46:281][917]LogViewport: Scene viewport resized to 1566x564, mode Windowed.
+[2024.01.26-20.39.46:326][918]LogViewport: Scene viewport resized to 1566x574, mode Windowed.
+[2024.01.26-20.39.46:448][919]LogViewport: Scene viewport resized to 1566x628, mode Windowed.
+[2024.01.26-20.39.46:555][920]LogViewport: Scene viewport resized to 1566x683, mode Windowed.
+[2024.01.26-20.39.46:711][921]LogViewport: Scene viewport resized to 1566x686, mode Windowed.
+[2024.01.26-20.39.46:877][922]LogViewport: Scene viewport resized to 1566x716, mode Windowed.
+[2024.01.26-20.39.47:313][950]LogViewport: Scene viewport resized to 1566x714, mode Windowed.
+[2024.01.26-20.39.47:354][951]LogViewport: Scene viewport resized to 1566x705, mode Windowed.
+[2024.01.26-20.39.47:494][952]LogViewport: Scene viewport resized to 1566x695, mode Windowed.
+[2024.01.26-20.39.47:562][953]LogViewport: Scene viewport resized to 1566x670, mode Windowed.
+[2024.01.26-20.39.51:304][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.39.51:304][ 54]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.39.51:309][ 54]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-20.39.51:317][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.39.51:319][ 54]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.01.26-20.39.51:345][ 54]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.26-20.39.51:350][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.39.51:358][ 54]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.26-20.39.51:359][ 54]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.01.26-20.39.51:362][ 54]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.01.26-20.39.51:365][ 54]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.01.26-20.39.51:374][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.39.51:393][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2024.01.26-20.39.51:523][ 55]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2024.01.26-20.39.52:321][ 57]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 504.21s
+[2024.01.26-20.40.46:800][365]LogViewport: Scene viewport resized to 1566x668, mode Windowed.
+[2024.01.26-20.40.46:853][366]LogViewport: Scene viewport resized to 1566x606, mode Windowed.
+[2024.01.26-20.40.47:028][367]LogViewport: Scene viewport resized to 1566x510, mode Windowed.
+[2024.01.26-20.40.47:122][368]LogViewport: Scene viewport resized to 1566x506, mode Windowed.
+[2024.01.26-20.42.41:315][278]LogSlate: External Image Picker: DecompressImage failed
+[2024.01.26-20.49.46:247][537]LogSlate: Window 'Project Settings' being destroyed
+[2024.01.26-20.49.46:254][537]LogSlate: Window 'Project Settings' being destroyed
+[2024.01.26-20.50.00:133][763]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\veron\Downloads\spaceship/source/Spaceship.fbx)
+[2024.01.26-20.50.00:173][763]LogFbx: Loading FBX Scene from C:\Users\veron\Downloads\spaceship/source/Spaceship.fbx
+[2024.01.26-20.50.00:188][763]LogFbx: FBX Scene Loaded Succesfully
+[2024.01.26-20.50.02:756][763]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.01.26-20.50.02:917][763]LogFbxMaterialImport: Display: Unable to find Texture file C:/Users/Jefferson/Desktop/Spaceship/Final/Spaceship_albedo.tga
+[2024.01.26-20.50.02:918][763]LogFbxMaterialImport: Display: Unable to find Texture file C:/Users/Jefferson/Desktop/Spaceship/Final/Spaceship_nmap.tga
+[2024.01.26-20.50.03:015][763]LogStaticMesh: Display: Building static mesh Spaceship_Spaceship...
+[2024.01.26-20.50.03:093][763]LogStaticMesh: Built static mesh [0.08s] /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship
+[2024.01.26-20.50.03:120][763]LogFbx: Display: Triangulating static mesh Door
+[2024.01.26-20.50.03:124][763]LogStaticMesh: Display: Building static mesh Spaceship_Door...
+[2024.01.26-20.50.03:131][763]LogStaticMesh: Built static mesh [0.01s] /Game/Characters/spaceship/source/Spaceship_Door.Spaceship_Door
+[2024.01.26-20.50.03:138][763]LogStaticMesh: Display: Building static mesh Spaceship_Glass...
+[2024.01.26-20.50.03:145][763]LogStaticMesh: Built static mesh [0.01s] /Game/Characters/spaceship/source/Spaceship_Glass.Spaceship_Glass
+[2024.01.26-20.50.03:169][763]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.01.26-20.50.03:268][763]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-20.50.03:269][763]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downloads/spaceship/textures/Emissive.tga.png]
+[2024.01.26-20.50.03:270][763]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.01.26-20.50.03:270][763]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.01.26-20.50.03:271][763]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.01.26-20.50.03:341][763]LogAutomationController: Ignoring very large delta of 3.25 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.01.26-20.50.03:371][764]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.01.26-20.50.03:371][764]LogTexture: Display: Building textures: /Game/Characters/spaceship/textures/Emissive_tga.Emissive_tga (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.26-20.50.03:520][766]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-20.50.03:520][766]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-20.50.03:520][766]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downloads/spaceship/textures/Spaceship_albedo.tga.png]
+[2024.01.26-20.50.03:579][766]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-20.50.03:596][766]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-20.50.03:737][766]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.01.26-20.50.03:761][767]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-20.50.03:761][767]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-20.50.03:762][767]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downloads/spaceship/textures/Spaceship_metalness.tga.png]
+[2024.01.26-20.50.03:766][767]LogTexture: Display: Building textures: /Game/Characters/spaceship/textures/Spaceship_albedo_tga.Spaceship_albedo_tga (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.26-20.50.03:782][767]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-20.50.03:879][767]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.01.26-20.50.03:881][767]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-20.50.04:292][767]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-20.50.04:292][767]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-20.50.04:292][767]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downloads/spaceship/textures/Spaceship_nmap.tga.png]
+[2024.01.26-20.50.04:297][767]LogTexture: Display: Building textures: /Game/Characters/spaceship/textures/Spaceship_metalness_tga.Spaceship_metalness_tga (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.26-20.50.04:350][768]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-20.50.04:365][768]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-20.50.04:396][768]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.01.26-20.50.04:849][768]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.01.26-20.50.04:855][768]LogTexture: Display: Building textures: /Game/Characters/spaceship/textures/Spaceship_nmap_tga.Spaceship_nmap_tga (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.01.26-20.50.04:863][768]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-20.50.04:932][769]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-20.50.05:361][771]LogSlate: Window 'Message Log' being destroyed
+[2024.01.26-20.50.05:372][771]LogSlate: Window 'Message Log' being destroyed
+[2024.01.26-20.50.05:551][777]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: ================================================
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Total job queries 8, among them cache hits 0 (0.00%)
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: RAM used: 21.51 KiB of 819.20 MiB budget. Usage: 0.00%
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Time job spent in pending queue: average 0.47 s, longest 1.75 s
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Job execution time: average 1.76 s, max 1.76 s
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Job life time (pending + execution): average 1.76 s, max 1.76
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Shader code size: average 35.125 KiB, min 35.125 KiB, max 35.125 KiB
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.76 s
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Average processing rate: 0.57 jobs/sec
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Total thread time: 1.145 s
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Total thread preprocess time: 0.099 s
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Percentage time preprocessing: 8.68%
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Effective parallelization: 0.65 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2024.01.26-20.50.07:452][819]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.01.26-20.50.07:453][819]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 1.14 sec, max 1.14 sec, min 1.14 sec)
+[2024.01.26-20.50.07:453][819]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.01.26-20.50.07:453][819]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 100.00% of total time (compiled    1 times, average 1.14 sec, max 1.14 sec, min 1.14 sec)
+[2024.01.26-20.50.07:453][819]LogShaderCompilers: Display: ================================================
+[2024.01.26-20.50.12:201][947]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/spaceship/source/blinn2.blinn2
+[2024.01.26-20.50.12:248][947]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.50.12:249][947]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-20.50.12:584][947]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.50.12:584][947]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.26-20.50.12:584][947]MaterialEditorStats: Shader Count: 0
+[2024.01.26-20.50.12:598][947]LogSlate: Took 0.001021 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.01.26-20.50.12:607][947]LogViewport: Scene viewport resized to 325x383, mode Windowed.
+[2024.01.26-20.50.12:835][949]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.01.26-20.50.12:835][949]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.26-20.50.12:835][949]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.26-20.50.12:835][949]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.26-20.50.12:835][949]MaterialEditorStats: Shader Count: 4
+[2024.01.26-20.50.14:676][984]LogViewport: Scene viewport resized to 487x576, mode Windowed.
+[2024.01.26-20.50.17:121][ 27]LogViewport: Scene viewport resized to 372x403, mode Windowed.
+[2024.01.26-20.50.23:517][208]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/spaceship/source/Default_Material.Default_Material
+[2024.01.26-20.50.23:522][208]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.50.23:522][208]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-20.50.23:683][208]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.50.23:683][208]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.26-20.50.23:683][208]MaterialEditorStats: Shader Count: 0
+[2024.01.26-20.50.23:699][208]LogViewport: Scene viewport resized to 372x403, mode Windowed.
+[2024.01.26-20.50.23:825][210]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.01.26-20.50.23:825][210]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.26-20.50.23:825][210]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.26-20.50.23:825][210]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.26-20.50.23:825][210]MaterialEditorStats: Shader Count: 4
+[2024.01.26-20.50.34:209][592]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.50.34:209][592]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.26-20.50.34:209][592]MaterialEditorStats: Shader Count: 0
+[2024.01.26-20.50.34:417][594]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.01.26-20.50.34:417][594]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.26-20.50.34:417][594]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.26-20.50.34:417][594]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.26-20.50.34:417][594]MaterialEditorStats: Shader Count: 4
+[2024.01.26-20.50.37:221][694]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.50.37:221][694]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.26-20.50.37:221][694]MaterialEditorStats: Shader Count: 0
+[2024.01.26-20.50.38:471][752]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.26-20.50.38:472][752]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.26-20.50.38:472][752]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.26-20.50.38:472][752]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.26-20.50.38:472][752]MaterialEditorStats: Shader Count: 2
+[2024.01.26-20.50.39:453][801]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.50.39:453][801]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.01.26-20.50.39:453][801]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.50.39:453][801]MaterialEditorStats: Shader Count: 0
+[2024.01.26-20.50.40:840][842]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.26-20.50.40:840][842]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.50.40:840][842]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.01.26-20.50.40:840][842]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.50.40:840][842]MaterialEditorStats: Shader Count: 2
+[2024.01.26-20.50.42:237][894]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.50.42:237][894]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.01.26-20.50.42:237][894]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.50.42:237][894]MaterialEditorStats: Shader Count: 0
+[2024.01.26-20.50.43:057][939]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.01.26-20.50.43:057][939]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.26-20.50.43:058][939]MaterialEditorStats: Texture samplers: 3/16
+[2024.01.26-20.50.43:058][939]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.01.26-20.50.43:058][939]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.50.43:058][939]MaterialEditorStats: Shader Count: 4
+[2024.01.26-20.50.46:837][ 89]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.50.46:837][ 89]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.01.26-20.50.46:837][ 89]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.50.46:837][ 89]MaterialEditorStats: Shader Count: 0
+[2024.01.26-20.50.48:248][125]MaterialEditorStats: Base pass shader: 198 instructions
+[2024.01.26-20.50.48:249][125]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.26-20.50.48:249][125]MaterialEditorStats: Texture samplers: 4/16
+[2024.01.26-20.50.48:249][125]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.01.26-20.50.48:249][125]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.50.48:249][125]MaterialEditorStats: Shader Count: 3
+[2024.01.26-20.50.49:626][189]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.50.49:626][189]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.01.26-20.50.49:626][189]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.50.49:626][189]MaterialEditorStats: Shader Count: 0
+[2024.01.26-20.50.49:933][191]MaterialEditorStats: Base pass shader: 198 instructions
+[2024.01.26-20.50.49:933][191]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.26-20.50.49:933][191]MaterialEditorStats: Texture samplers: 4/16
+[2024.01.26-20.50.49:933][191]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.01.26-20.50.49:933][191]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.50.49:933][191]MaterialEditorStats: Shader Count: 4
+[2024.01.26-20.50.52:176][325]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.50.52:176][325]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.01.26-20.50.52:176][325]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.50.52:176][325]MaterialEditorStats: Shader Count: 0
+[2024.01.26-20.50.52:787][345]LogShaderCompilers: Display: FShaderCompileThreadRunnable::WriteNewTasks()() took too long (0.509 seconds, threshold is 0.300 s), will parallelize next time.
+[2024.01.26-20.50.54:248][394]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.26-20.50.54:249][394]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.50.54:249][394]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.01.26-20.50.54:249][394]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.50.54:249][394]MaterialEditorStats: Shader Count: 1
+[2024.01.26-20.50.54:977][421]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.01.26-20.50.54:977][421]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.26-20.50.54:977][421]MaterialEditorStats: Texture samplers: 5/16
+[2024.01.26-20.50.54:977][421]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.01.26-20.50.54:977][421]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.50.54:977][421]MaterialEditorStats: Shader Count: 2
+[2024.01.26-20.50.55:525][441]LogMaterialEditor: Saving and Compiling material Default_Material
+[2024.01.26-20.50.56:820][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.01.26-20.50.59:209][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.01.26-20.50.59:235][441]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.51.01:646][441]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.015184 seconds
+[2024.01.26-20.51.01:664][441]LogSavePackage: Moving output files for package: /Game/Characters/spaceship/source/Default_Material
+[2024.01.26-20.51.01:664][441]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Default_Material079398484B28028BBB35ABA48D2EA326.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/Characters/spaceship/source/Default_Material.uasset'
+[2024.01.26-20.51.01:683][441]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.44 sec
+[2024.01.26-20.51.01:687][441]AssetCheck: New page: Asset Save: Default_Material
+[2024.01.26-20.51.01:687][441]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/spaceship/source/Default_Material.Default_Material
+[2024.01.26-20.51.01:689][441]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.01.26-20.51.01:689][441]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.26-20.51.01:689][441]MaterialEditorStats: MaxSampler: 255 instructions
+[2024.01.26-20.51.01:690][441]MaterialEditorStats: Texture samplers: 6/16
+[2024.01.26-20.51.01:690][441]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.01.26-20.51.01:690][441]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.51.01:690][441]MaterialEditorStats: Shader Count: 16
+[2024.01.26-20.51.01:722][441]LogAutomationController: Ignoring very large delta of 6.20 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.01.26-20.51.08:915][678]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.51.08:915][678]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.26-20.51.08:915][678]MaterialEditorStats: Shader Count: 0
+[2024.01.26-20.51.08:989][680]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.26-20.51.08:989][680]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.26-20.51.08:989][680]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.26-20.51.08:989][680]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.26-20.51.08:989][680]MaterialEditorStats: Shader Count: 4
+[2024.01.26-20.51.09:914][714]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.51.09:915][714]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.26-20.51.09:915][714]MaterialEditorStats: Shader Count: 0
+[2024.01.26-20.51.09:989][716]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.26-20.51.09:989][716]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.26-20.51.09:989][716]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.26-20.51.09:989][716]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.26-20.51.09:989][716]MaterialEditorStats: Shader Count: 4
+[2024.01.26-20.51.14:518][950]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.51.14:518][950]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.01.26-20.51.14:518][950]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.51.14:518][950]MaterialEditorStats: Shader Count: 0
+[2024.01.26-20.51.14:735][952]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.01.26-20.51.14:735][952]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.26-20.51.14:735][952]MaterialEditorStats: Texture samplers: 3/16
+[2024.01.26-20.51.14:735][952]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.01.26-20.51.14:735][952]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.51.14:735][952]MaterialEditorStats: Shader Count: 4
+[2024.01.26-20.51.17:836][130]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.51.17:836][130]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.01.26-20.51.17:836][130]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.51.17:836][130]MaterialEditorStats: Shader Count: 0
+[2024.01.26-20.51.18:038][133]MaterialEditorStats: Base pass shader: 198 instructions
+[2024.01.26-20.51.18:039][133]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.26-20.51.18:039][133]MaterialEditorStats: Texture samplers: 4/16
+[2024.01.26-20.51.18:039][133]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.01.26-20.51.18:039][133]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.51.18:039][133]MaterialEditorStats: Shader Count: 4
+[2024.01.26-20.51.19:868][231]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.26-20.51.19:868][231]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.01.26-20.51.19:868][231]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.51.19:868][231]MaterialEditorStats: Shader Count: 0
+[2024.01.26-20.51.20:200][234]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.01.26-20.51.20:200][234]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.26-20.51.20:200][234]MaterialEditorStats: Texture samplers: 5/16
+[2024.01.26-20.51.20:200][234]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.01.26-20.51.20:200][234]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.51.20:200][234]MaterialEditorStats: Shader Count: 4
+[2024.01.26-20.51.20:802][250]LogMaterialEditor: Saving and Compiling material blinn2
+[2024.01.26-20.51.20:922][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.01.26-20.51.21:142][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.01.26-20.51.21:154][250]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.51.21:249][250]LogSavePackage: Moving output files for package: /Game/Characters/spaceship/source/blinn2
+[2024.01.26-20.51.21:249][250]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/blinn287AD44F047F10484DC2FAF930C142629.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/Characters/spaceship/source/blinn2.uasset'
+[2024.01.26-20.51.21:257][250]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 2.55 sec)
+[2024.01.26-20.51.21:258][250]AssetCheck: New page: Asset Save: blinn2
+[2024.01.26-20.51.21:258][250]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/spaceship/source/blinn2.blinn2
+[2024.01.26-20.51.21:259][250]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.01.26-20.51.21:259][250]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.26-20.51.21:259][250]MaterialEditorStats: MaxSampler: 255 instructions
+[2024.01.26-20.51.21:259][250]MaterialEditorStats: Texture samplers: 6/16
+[2024.01.26-20.51.21:259][250]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.01.26-20.51.21:259][250]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.26-20.51.21:259][250]MaterialEditorStats: Shader Count: 16
+[2024.01.26-20.51.26:544][416]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship
+[2024.01.26-20.51.26:545][416]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship
+[2024.01.26-20.51.26:548][416]LogActorFactory: Actor Factory spawned StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship as actor: StaticMeshActor /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_4
+[2024.01.26-20.51.29:179][532]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship
+[2024.01.26-20.51.29:179][532]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship
+[2024.01.26-20.51.29:180][532]LogActorFactory: Actor Factory spawned StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship as actor: StaticMeshActor /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_5
+[2024.01.26-20.51.29:944][562]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship
+[2024.01.26-20.51.29:944][562]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship
+[2024.01.26-20.51.29:969][562]LogActorFactory: Actor Factory spawned StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship as actor: StaticMeshActor /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_UAID_7085C22BD81A4AD301_1124248999
+[2024.01.26-20.51.41:056][932]Cmd: TRANSACTION UNDO
+[2024.01.26-20.51.41:057][932]LogEditorTransaction: Undo Clicking on Actors
+[2024.01.26-20.51.42:564][985]Cmd: DELETE
+[2024.01.26-20.51.42:582][985]Cmd: ACTOR DELETE
+[2024.01.26-20.51.42:622][985]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.26-20.51.42:631][985]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.01.26-20.51.42:633][985]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2024.01.26-20.51.49:103][157]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship
+[2024.01.26-20.51.49:103][157]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship
+[2024.01.26-20.51.49:103][157]LogActorFactory: Actor Factory spawned StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship as actor: StaticMeshActor /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_6
+[2024.01.26-20.51.50:442][243]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship
+[2024.01.26-20.51.50:443][243]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship
+[2024.01.26-20.51.50:443][243]LogActorFactory: Actor Factory spawned StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship as actor: StaticMeshActor /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_7
+[2024.01.26-20.51.51:235][270]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship
+[2024.01.26-20.51.51:235][270]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship
+[2024.01.26-20.51.51:244][270]LogActorFactory: Actor Factory spawned StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship as actor: StaticMeshActor /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_UAID_7085C22BD81A4AD301_1145539000
+[2024.01.26-20.52.34:532][738]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.52.34:644][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.01.26-20.52.34:652][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.01.26-20.52.34:658][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.01.26-20.52.34:668][738]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/0/LP/TZNUQBTPY4KP6GU6JWUSC4
+[2024.01.26-20.52.34:668][738]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/TZNUQBTPY4KP6GU6JWUSC4436E88194E6733E599457C84FCB2A1DA.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/__ExternalActors__/TopDown/Maps/TopDownMap/0/LP/TZNUQBTPY4KP6GU6JWUSC4.uasset'
+[2024.01.26-20.52.34:691][738]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 2.70 sec)
+[2024.01.26-20.52.34:696][738]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_7085C22BD81A4AD301_1145539000
+[2024.01.26-20.52.34:696][738]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_UAID_7085C22BD81A4AD301_1145539000
+[2024.01.26-20.52.50:258][240]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.52.51:929][278]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2024.01.26-20.52.51:953][278]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.52.51:953][278]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-20.52.51:987][278]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.01.26-20.52.53:663][280]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.52.58:188][422]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2024.01.26-20.53.00:716][486]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2024.01.26-20.54.13:706][676]LogSlate: Took 0.000667 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.26-20.54.59:099][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.54.59:243][ 12]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2024.01.26-20.54.59:244][ 12]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_TopDownCharacterC90058544CF14058109C129D58B97E3E.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2024.01.26-20.54.59:251][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 2.86 sec)
+[2024.01.26-20.54.59:255][ 12]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2024.01.26-20.54.59:255][ 12]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2024.01.26-20.55.00:028][ 33]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2024.01.26-20.55.00:114][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.26-20.55.25:955][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.01.26-20.55.25:959][126]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap' took 0.028
+[2024.01.26-20.55.25:962][126]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/spaceship/source/Spaceship_Spaceship] ([1] browsable assets)...
+[2024.01.26-20.55.26:032][126]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Characters/spaceship/source/Spaceship_Spaceship.Spaceship_Spaceship]
+[2024.01.26-20.55.26:032][126]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/spaceship/source/Spaceship_Spaceship]
+[2024.01.26-20.55.26:046][126]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/spaceship/source/Spaceship_Spaceship_Auto1
+[2024.01.26-20.55.26:046][126]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Spaceship_Spaceship_Auto16D60D12C4AD5E2A7A6E2C7B3CDE4231C.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Autosaves/Game/Characters/spaceship/source/Spaceship_Spaceship_Auto1.uasset'
+[2024.01.26-20.55.26:047][126]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/spaceship/source/Spaceship_Door] ([1] browsable assets)...
+[2024.01.26-20.55.26:058][126]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Characters/spaceship/source/Spaceship_Door.Spaceship_Door]
+[2024.01.26-20.55.26:058][126]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/spaceship/source/Spaceship_Door]
+[2024.01.26-20.55.26:061][126]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/spaceship/source/Spaceship_Door_Auto1
+[2024.01.26-20.55.26:061][126]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Spaceship_Door_Auto10288E13E4F926BC70D41428CC397231F.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Autosaves/Game/Characters/spaceship/source/Spaceship_Door_Auto1.uasset'
+[2024.01.26-20.55.26:062][126]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/spaceship/source/Spaceship_Glass] ([1] browsable assets)...
+[2024.01.26-20.55.26:073][126]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Characters/spaceship/source/Spaceship_Glass.Spaceship_Glass]
+[2024.01.26-20.55.26:073][126]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/spaceship/source/Spaceship_Glass]
+[2024.01.26-20.55.26:076][126]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/spaceship/source/Spaceship_Glass_Auto1
+[2024.01.26-20.55.26:076][126]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Spaceship_Glass_Auto1A3DB2A1A446C7A4FFEB002976D93BB2D.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Autosaves/Game/Characters/spaceship/source/Spaceship_Glass_Auto1.uasset'
+[2024.01.26-20.55.26:077][126]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/spaceship/textures/Emissive_tga] ([1] browsable assets)...
+[2024.01.26-20.55.26:080][126]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Characters/spaceship/textures/Emissive_tga.Emissive_tga]
+[2024.01.26-20.55.26:080][126]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/spaceship/textures/Emissive_tga]
+[2024.01.26-20.55.26:094][126]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/spaceship/textures/Emissive_tga_Auto1
+[2024.01.26-20.55.26:094][126]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Emissive_tga_Auto148EB9AE04E2C910D0ED40AB0639C328C.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Autosaves/Game/Characters/spaceship/textures/Emissive_tga_Auto1.uasset'
+[2024.01.26-20.55.26:095][126]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/spaceship/textures/Spaceship_albedo_tga] ([1] browsable assets)...
+[2024.01.26-20.55.26:097][126]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Characters/spaceship/textures/Spaceship_albedo_tga.Spaceship_albedo_tga]
+[2024.01.26-20.55.26:097][126]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/spaceship/textures/Spaceship_albedo_tga]
+[2024.01.26-20.55.26:110][126]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/spaceship/textures/Spaceship_albedo_tga_Auto1
+[2024.01.26-20.55.26:110][126]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Spaceship_albedo_tga_Auto106D8303A4F81558B3E7209987849B257.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Autosaves/Game/Characters/spaceship/textures/Spaceship_albedo_tga_Auto1.uasset'
+[2024.01.26-20.55.26:111][126]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/spaceship/textures/Spaceship_metalness_tga] ([1] browsable assets)...
+[2024.01.26-20.55.26:113][126]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Characters/spaceship/textures/Spaceship_metalness_tga.Spaceship_metalness_tga]
+[2024.01.26-20.55.26:113][126]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/spaceship/textures/Spaceship_metalness_tga]
+[2024.01.26-20.55.26:127][126]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/spaceship/textures/Spaceship_metalness_tga_Auto1
+[2024.01.26-20.55.26:127][126]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Spaceship_metalness_tga_Auto1C04D39C4426064A8C21920A9F70103E2.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Autosaves/Game/Characters/spaceship/textures/Spaceship_metalness_tga_Auto1.uasset'
+[2024.01.26-20.55.26:128][126]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/spaceship/textures/Spaceship_nmap_tga] ([1] browsable assets)...
+[2024.01.26-20.55.26:130][126]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Characters/spaceship/textures/Spaceship_nmap_tga.Spaceship_nmap_tga]
+[2024.01.26-20.55.26:130][126]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/spaceship/textures/Spaceship_nmap_tga]
+[2024.01.26-20.55.26:143][126]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/spaceship/textures/Spaceship_nmap_tga_Auto1
+[2024.01.26-20.55.26:143][126]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Spaceship_nmap_tga_Auto10729480943EC32B755D049986CDD8A50.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Autosaves/Game/Characters/spaceship/textures/Spaceship_nmap_tga_Auto1.uasset'
+[2024.01.26-20.55.26:144][126]LogFileHelpers: Auto-saving content packages took 0.186
+[2024.01.26-20.55.58:303][690]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.55.58:415][690]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2024.01.26-20.55.58:416][690]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_TopDownCharacter5AF3458E42FAFF687CF41EA6CCD8E20A.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2024.01.26-20.55.58:430][690]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 2.98 sec)
+[2024.01.26-20.55.58:431][690]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2024.01.26-20.55.58:431][690]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2024.01.26-20.55.59:268][718]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2024.01.26-20.55.59:317][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.01.26-20.56.02:162][805]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-20.56.02:163][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.56.02:982][828]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-20.56.02:982][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.56.03:941][849]LogViewport: Scene viewport resized to 1139x898, mode Windowed.
+[2024.01.26-20.56.04:146][851]LogViewport: Scene viewport resized to 467x292, mode Windowed.
+[2024.01.26-20.56.04:319][858]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2024.01.26-20.56.04:440][859]LogViewport: Scene viewport resized to 1139x898, mode Windowed.
+[2024.01.26-20.56.04:598][860]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2024.01.26-20.56.04:949][897]LogSlate: Window 'BP_TopDownCharacter' being destroyed
+[2024.01.26-20.56.07:399][  5]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.26-20.56.07:428][  5]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.26-20.56.07:429][  5]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2024.01.26-20.56.07:440][  5]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 11 ms (total: 14 ms)
+[2024.01.26-20.56.07:443][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.26-20.56.07:451][  5]PIE: New page: PIE session: TopDownMap (Jan. 26, 2024, 10:56:07 a.m.)
+[2024.01.26-20.56.07:454][  5]LogPlayLevel: Display: Creating online subsystem for client :Context_9
+[2024.01.26-20.56.07:465][  5]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2024.01.26-20.56.07:491][  6]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.56.07:507][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015998s)
+[2024.01.26-20.56.07:507][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.016098s)
+[2024.01.26-20.56.07:528][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.01.26-20.56.07:533][  6]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.56.07:536][  6]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-20.56.07:537][  6]LogAIModule: Creating AISystem for world TopDownMap
+[2024.01.26-20.56.07:541][  6]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.26-20.56.07:542][  6]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.26-20.56.07:542][  6]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.26-20.56.07:542][  6]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.26-20.56.07:544][  6]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.01.26-20.56.07:544][  6]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 91 ms)
+[2024.01.26-20.56.07:545][  6]LogPlayLevel: PIE: World Init took: (0.013604s)
+[2024.01.26-20.56.07:546][  6]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.01.26-20.56.07:548][  6]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.26-20.56.07:548][  6]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.26-20.56.07:548][  6]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.26-20.56.07:548][  6]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.26-20.56.07:548][  6]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.26-20.56.07:548][  6]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.26-20.56.07:548][  6]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.26-20.56.07:548][  6]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.26-20.56.07:550][  6]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.26-20.56.07:550][  6]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.26-20.56.07:551][  6]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.26-20.56.07:555][  6]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.26-20.56.07:596][  6]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.26-20.56.07:598][  6]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.26-20.56.07:598][  6]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.26-20.56.07:598][  6]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.26-20.56.07:600][  6]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.01.26-20.56.07:600][  6]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.01.26-20.56.07:602][  6]LogInit: FAudioDevice initialized with ID 3.
+[2024.01.26-20.56.07:602][  6]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.01.26-20.56.07:602][  6]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.01.26-20.56.07:603][  6]LogAudio: Display: Audio Device (ID: 3) registered with world 'TopDownMap'.
+[2024.01.26-20.56.07:603][  6]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.01.26-20.56.07:611][  6]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2024.01.26-20.56.07:615][  6]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2024.01.26-15.56.07
+[2024.01.26-20.56.07:616][  6]LogWorld: Bringing up level for play took: 0.004208
+[2024.01.26-20.56.07:624][  6]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.01.26-20.56.07:641][  6]PIE: Server logged in
+[2024.01.26-20.56.07:642][  6]PIE: Play in editor total start time 0.216 seconds.
+[2024.01.26-20.56.10:119][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.56.10:119][ 74]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.56.10:119][ 74]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-20.56.10:120][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.56.10:120][ 74]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.01.26-20.56.10:136][ 74]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.26-20.56.10:141][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.56.10:158][ 74]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.26-20.56.10:158][ 74]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.01.26-20.56.10:158][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.01.26-20.56.10:166][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.01.26-20.56.10:190][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.56.10:193][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.01.26-20.56.10:278][ 75]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2024.01.26-20.56.14:609][358]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.56.14:681][358]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2024.01.26-20.56.14:682][358]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_TopDownCharacterCFB1E91445B475D70B183C89B1493FDF.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2024.01.26-20.56.14:692][358]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 3.07 sec)
+[2024.01.26-20.56.14:693][358]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2024.01.26-20.56.14:693][358]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2024.01.26-20.56.15:255][411]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2024.01.26-20.56.15:299][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.01.26-20.56.16:884][483]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.26-20.56.16:892][483]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.26-20.56.16:892][483]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2024.01.26-20.56.16:902][483]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 10 ms (total: 25 ms)
+[2024.01.26-20.56.16:902][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.26-20.56.16:902][483]PIE: New page: PIE session: TopDownMap (Jan. 26, 2024, 10:56:16 a.m.)
+[2024.01.26-20.56.16:903][483]LogPlayLevel: Display: Creating online subsystem for client :Context_10
+[2024.01.26-20.56.16:905][483]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.01.26-20.56.16:929][484]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.56.16:935][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006101s)
+[2024.01.26-20.56.16:935][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006158s)
+[2024.01.26-20.56.16:963][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.01.26-20.56.16:967][484]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.56.16:967][484]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-20.56.16:968][484]LogAIModule: Creating AISystem for world TopDownMap
+[2024.01.26-20.56.16:968][484]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.26-20.56.16:969][484]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.26-20.56.16:969][484]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.26-20.56.16:969][484]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.26-20.56.16:970][484]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.01.26-20.56.16:970][484]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 92 ms)
+[2024.01.26-20.56.16:970][484]LogPlayLevel: PIE: World Init took: (0.003581s)
+[2024.01.26-20.56.16:970][484]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.01.26-20.56.16:970][484]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.26-20.56.16:970][484]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.26-20.56.16:971][484]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.26-20.56.16:971][484]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.26-20.56.16:971][484]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.26-20.56.16:971][484]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.26-20.56.16:971][484]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.26-20.56.16:971][484]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.26-20.56.16:971][484]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.26-20.56.16:971][484]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.26-20.56.16:971][484]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.26-20.56.16:973][484]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.26-20.56.17:010][484]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.26-20.56.17:011][484]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.26-20.56.17:011][484]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.26-20.56.17:011][484]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.26-20.56.17:012][484]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.01.26-20.56.17:012][484]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.01.26-20.56.17:014][484]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.01.26-20.56.17:014][484]LogInit: FAudioDevice initialized with ID 4.
+[2024.01.26-20.56.17:014][484]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.01.26-20.56.17:014][484]LogAudio: Display: Audio Device (ID: 4) registered with world 'TopDownMap'.
+[2024.01.26-20.56.17:014][484]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.01.26-20.56.17:018][484]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2024.01.26-20.56.17:020][484]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2024.01.26-15.56.17
+[2024.01.26-20.56.17:020][484]LogWorld: Bringing up level for play took: 0.002188
+[2024.01.26-20.56.17:021][484]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.01.26-20.56.17:025][484]PIE: Server logged in
+[2024.01.26-20.56.17:026][484]PIE: Play in editor total start time 0.134 seconds.
+[2024.01.26-20.56.18:979][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.56.18:979][536]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.56.18:980][536]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-20.56.18:980][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.56.18:980][536]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.01.26-20.56.19:004][536]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.26-20.56.19:009][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.56.19:028][536]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.26-20.56.19:028][536]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.01.26-20.56.19:028][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.01.26-20.56.19:030][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.01.26-20.56.19:035][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.56.19:040][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.01.26-20.56.19:127][537]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.01.26-20.56.21:142][611]Cmd: CAMERA ALIGN
+[2024.01.26-20.56.27:059][847]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.26-20.56.27:065][847]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.26-20.56.27:065][847]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2024.01.26-20.56.27:067][847]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 1 ms (total: 27 ms)
+[2024.01.26-20.56.27:067][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.26-20.56.27:067][847]PIE: New page: PIE session: TopDownMap (Jan. 26, 2024, 10:56:27 a.m.)
+[2024.01.26-20.56.27:068][847]LogPlayLevel: Display: Creating online subsystem for client :Context_11
+[2024.01.26-20.56.27:070][847]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.01.26-20.56.27:092][848]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.56.27:106][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014031s)
+[2024.01.26-20.56.27:106][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.014085s)
+[2024.01.26-20.56.27:127][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.01.26-20.56.27:130][848]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.56.27:130][848]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-20.56.27:131][848]LogAIModule: Creating AISystem for world TopDownMap
+[2024.01.26-20.56.27:131][848]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.26-20.56.27:131][848]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.26-20.56.27:131][848]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.26-20.56.27:132][848]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.26-20.56.27:133][848]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.01.26-20.56.27:133][848]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 94 ms)
+[2024.01.26-20.56.27:133][848]LogPlayLevel: PIE: World Init took: (0.002971s)
+[2024.01.26-20.56.27:133][848]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.01.26-20.56.27:133][848]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.26-20.56.27:133][848]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.26-20.56.27:133][848]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.26-20.56.27:133][848]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.26-20.56.27:133][848]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.26-20.56.27:133][848]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.26-20.56.27:133][848]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.26-20.56.27:133][848]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.26-20.56.27:134][848]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.26-20.56.27:134][848]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.26-20.56.27:134][848]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.26-20.56.27:136][848]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.26-20.56.27:172][848]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.26-20.56.27:172][848]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.26-20.56.27:172][848]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.26-20.56.27:172][848]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.26-20.56.27:173][848]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.01.26-20.56.27:173][848]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.01.26-20.56.27:175][848]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.01.26-20.56.27:175][848]LogInit: FAudioDevice initialized with ID 5.
+[2024.01.26-20.56.27:175][848]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.01.26-20.56.27:175][848]LogAudio: Display: Audio Device (ID: 5) registered with world 'TopDownMap'.
+[2024.01.26-20.56.27:175][848]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.01.26-20.56.27:178][848]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2024.01.26-20.56.27:181][848]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2024.01.26-15.56.27
+[2024.01.26-20.56.27:181][848]LogWorld: Bringing up level for play took: 0.002118
+[2024.01.26-20.56.27:182][848]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.01.26-20.56.27:185][848]PIE: Server logged in
+[2024.01.26-20.56.27:186][848]PIE: Play in editor total start time 0.121 seconds.
+[2024.01.26-20.56.29:289][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.56.29:289][888]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.56.29:289][888]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-20.56.29:290][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.56.29:290][888]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.01.26-20.56.29:295][888]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.26-20.56.29:301][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.56.29:322][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.56.29:322][888]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.01.26-20.56.29:322][888]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.01.26-20.56.29:324][888]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.01.26-20.56.29:333][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.26-20.56.29:411][889]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.01.26-20.56.49:512][634]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.56.49:587][634]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2024.01.26-20.56.49:588][634]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_TopDownCharacterDF26846044507E71D2E4929C248D0237.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2024.01.26-20.56.49:596][634]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 3.15 sec)
+[2024.01.26-20.56.49:596][634]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2024.01.26-20.56.49:596][634]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2024.01.26-20.56.50:703][744]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2024.01.26-20.56.50:752][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.01.26-20.57.14:974][ 32]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.57.15:055][ 32]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2024.01.26-20.57.15:056][ 32]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_TopDownCharacter94C7A0264D24E74DD09C329B2FD8CD18.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2024.01.26-20.57.15:063][ 32]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 3.24 sec)
+[2024.01.26-20.57.15:064][ 32]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2024.01.26-20.57.15:064][ 32]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2024.01.26-20.57.16:735][193]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2024.01.26-20.57.16:802][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.01.26-20.57.17:959][225]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.26-20.57.17:966][225]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.26-20.57.17:966][225]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2024.01.26-20.57.17:968][225]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 1 ms (total: 29 ms)
+[2024.01.26-20.57.17:968][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.26-20.57.17:968][225]PIE: New page: PIE session: TopDownMap (Jan. 26, 2024, 10:57:17 a.m.)
+[2024.01.26-20.57.17:968][225]LogPlayLevel: Display: Creating online subsystem for client :Context_12
+[2024.01.26-20.57.17:970][225]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.01.26-20.57.17:992][226]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.57.18:001][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008333s)
+[2024.01.26-20.57.18:001][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.008383s)
+[2024.01.26-20.57.18:022][226]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.01.26-20.57.18:025][226]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.57.18:025][226]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-20.57.18:025][226]LogAIModule: Creating AISystem for world TopDownMap
+[2024.01.26-20.57.18:026][226]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.26-20.57.18:026][226]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.26-20.57.18:026][226]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.26-20.57.18:026][226]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.26-20.57.18:028][226]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.01.26-20.57.18:028][226]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 96 ms)
+[2024.01.26-20.57.18:028][226]LogPlayLevel: PIE: World Init took: (0.003236s)
+[2024.01.26-20.57.18:028][226]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.01.26-20.57.18:028][226]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.26-20.57.18:028][226]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.26-20.57.18:028][226]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.26-20.57.18:028][226]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.26-20.57.18:028][226]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.26-20.57.18:028][226]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.26-20.57.18:028][226]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.26-20.57.18:028][226]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.26-20.57.18:029][226]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.26-20.57.18:029][226]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.26-20.57.18:029][226]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.26-20.57.18:031][226]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.26-20.57.18:065][226]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.26-20.57.18:065][226]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.26-20.57.18:065][226]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.26-20.57.18:065][226]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.26-20.57.18:066][226]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.01.26-20.57.18:066][226]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.01.26-20.57.18:069][226]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.01.26-20.57.18:069][226]LogInit: FAudioDevice initialized with ID 6.
+[2024.01.26-20.57.18:069][226]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.01.26-20.57.18:069][226]LogAudio: Display: Audio Device (ID: 6) registered with world 'TopDownMap'.
+[2024.01.26-20.57.18:069][226]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.01.26-20.57.18:072][226]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2024.01.26-20.57.18:074][226]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2024.01.26-15.57.18
+[2024.01.26-20.57.18:074][226]LogWorld: Bringing up level for play took: 0.002036
+[2024.01.26-20.57.18:075][226]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.01.26-20.57.18:080][226]PIE: Warning: Invalid Simulate Options: Body (BP_TopDownCharacter_C_0.StaticMesh Spaceship_Spaceship) is set to simulate physics but Collision Enabled is incompatible
+[2024.01.26-20.57.18:080][226]PIE: Warning: Invalid Simulate Options: Body (BP_TopDownCharacter_C_0.StaticMesh Spaceship_Spaceship) is set to simulate physics but Collision Enabled is incompatible
+[2024.01.26-20.57.18:080][226]PIE: Server logged in
+[2024.01.26-20.57.18:081][226]PIE: Play in editor total start time 0.116 seconds.
+[2024.01.26-20.57.22:210][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.57.22:210][346]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.57.22:210][346]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-20.57.22:210][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.57.22:210][346]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.01.26-20.57.22:222][346]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.26-20.57.22:227][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.57.22:245][346]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.26-20.57.22:245][346]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.01.26-20.57.22:246][346]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.01.26-20.57.22:247][346]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.01.26-20.57.22:253][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.57.22:256][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.26-20.57.22:535][347]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.01.26-20.57.27:690][540]LogSlate: Window 'Message Log' being destroyed
+[2024.01.26-20.57.35:125][868]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.57.35:243][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.01.26-20.57.35:262][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.01.26-20.57.35:279][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.01.26-20.57.35:282][868]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/0/LP/TZNUQBTPY4KP6GU6JWUSC4
+[2024.01.26-20.57.35:282][868]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/TZNUQBTPY4KP6GU6JWUSC47A472BE244B44914546643A60154BD28.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/__ExternalActors__/TopDown/Maps/TopDownMap/0/LP/TZNUQBTPY4KP6GU6JWUSC4.uasset'
+[2024.01.26-20.57.35:294][868]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 3.41 sec)
+[2024.01.26-20.57.35:297][868]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_7085C22BD81A4AD301_1145539000
+[2024.01.26-20.57.35:297][868]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_UAID_7085C22BD81A4AD301_1145539000
+[2024.01.26-20.57.37:174][955]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.26-20.57.37:180][955]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.26-20.57.37:180][955]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2024.01.26-20.57.37:182][955]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 2 ms (total: 31 ms)
+[2024.01.26-20.57.37:182][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.26-20.57.37:182][955]PIE: New page: PIE session: TopDownMap (Jan. 26, 2024, 10:57:37 a.m.)
+[2024.01.26-20.57.37:182][955]LogPlayLevel: Display: Creating online subsystem for client :Context_13
+[2024.01.26-20.57.37:184][955]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.01.26-20.57.37:206][956]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.57.37:212][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006306s)
+[2024.01.26-20.57.37:212][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006352s)
+[2024.01.26-20.57.37:229][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.01.26-20.57.37:231][956]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.57.37:231][956]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-20.57.37:231][956]LogAIModule: Creating AISystem for world TopDownMap
+[2024.01.26-20.57.37:232][956]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.26-20.57.37:232][956]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.26-20.57.37:232][956]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.26-20.57.37:232][956]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.26-20.57.37:233][956]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.01.26-20.57.37:233][956]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 97 ms)
+[2024.01.26-20.57.37:233][956]LogPlayLevel: PIE: World Init took: (0.002545s)
+[2024.01.26-20.57.37:233][956]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.01.26-20.57.37:233][956]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.26-20.57.37:233][956]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.26-20.57.37:233][956]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.26-20.57.37:233][956]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.26-20.57.37:233][956]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.26-20.57.37:233][956]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.26-20.57.37:233][956]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.26-20.57.37:233][956]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.26-20.57.37:234][956]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.26-20.57.37:234][956]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.26-20.57.37:234][956]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.26-20.57.37:236][956]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.26-20.57.37:271][956]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.26-20.57.37:271][956]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.26-20.57.37:271][956]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.26-20.57.37:271][956]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.26-20.57.37:272][956]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.01.26-20.57.37:272][956]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.01.26-20.57.37:274][956]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.01.26-20.57.37:274][956]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.01.26-20.57.37:274][956]LogInit: FAudioDevice initialized with ID 7.
+[2024.01.26-20.57.37:274][956]LogAudio: Display: Audio Device (ID: 7) registered with world 'TopDownMap'.
+[2024.01.26-20.57.37:274][956]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.26-20.57.37:277][956]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2024.01.26-20.57.37:279][956]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2024.01.26-15.57.37
+[2024.01.26-20.57.37:279][956]LogWorld: Bringing up level for play took: 0.001960
+[2024.01.26-20.57.37:280][956]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.01.26-20.57.37:284][956]PIE: Warning: Invalid Simulate Options: Body (BP_TopDownCharacter_C_0.StaticMesh Spaceship_Spaceship) is set to simulate physics but Collision Enabled is incompatible
+[2024.01.26-20.57.37:284][956]PIE: Warning: Invalid Simulate Options: Body (BP_TopDownCharacter_C_0.StaticMesh Spaceship_Spaceship) is set to simulate physics but Collision Enabled is incompatible
+[2024.01.26-20.57.37:284][956]PIE: Server logged in
+[2024.01.26-20.57.37:285][956]PIE: Play in editor total start time 0.106 seconds.
+[2024.01.26-20.57.39:429][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.57.39:429][  7]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.57.39:429][  7]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-20.57.39:429][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.57.39:430][  7]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.01.26-20.57.39:468][  7]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.26-20.57.39:473][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.57.39:490][  7]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.26-20.57.39:491][  7]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.26-20.57.39:491][  7]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.26-20.57.39:492][  7]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.26-20.57.39:497][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.57.39:500][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.01.26-20.57.39:844][  8]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.01.26-20.57.43:461][152]LogSlate: Window 'Message Log' being destroyed
+[2024.01.26-20.57.51:863][861]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.57.51:954][861]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2024.01.26-20.57.51:955][861]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_TopDownCharacterC50C050247D60672898404B40E437A89.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2024.01.26-20.57.51:965][861]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 3.51 sec)
+[2024.01.26-20.57.51:967][861]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2024.01.26-20.57.51:967][861]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2024.01.26-20.57.52:222][886]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2024.01.26-20.57.52:269][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.01.26-20.57.53:756][951]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.26-20.57.53:762][951]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.26-20.57.53:762][951]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2024.01.26-20.57.53:764][951]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 2 ms (total: 33 ms)
+[2024.01.26-20.57.53:764][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.26-20.57.53:764][951]PIE: New page: PIE session: TopDownMap (Jan. 26, 2024, 10:57:53 a.m.)
+[2024.01.26-20.57.53:764][951]LogPlayLevel: Display: Creating online subsystem for client :Context_14
+[2024.01.26-20.57.53:766][951]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.01.26-20.57.53:788][952]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.57.53:794][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005639s)
+[2024.01.26-20.57.53:794][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.005688s)
+[2024.01.26-20.57.53:819][952]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2024.01.26-20.57.53:822][952]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.57.53:823][952]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-20.57.53:824][952]LogAIModule: Creating AISystem for world TopDownMap
+[2024.01.26-20.57.53:825][952]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.26-20.57.53:825][952]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.26-20.57.53:825][952]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.26-20.57.53:825][952]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.26-20.57.53:826][952]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.01.26-20.57.53:826][952]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 99 ms)
+[2024.01.26-20.57.53:826][952]LogPlayLevel: PIE: World Init took: (0.004135s)
+[2024.01.26-20.57.53:827][952]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.01.26-20.57.53:827][952]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.26-20.57.53:827][952]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.26-20.57.53:827][952]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.26-20.57.53:827][952]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.26-20.57.53:827][952]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.26-20.57.53:827][952]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.26-20.57.53:827][952]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.26-20.57.53:827][952]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.26-20.57.53:831][952]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.26-20.57.53:831][952]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.26-20.57.53:831][952]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.26-20.57.53:834][952]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.26-20.57.53:867][952]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.26-20.57.53:867][952]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.26-20.57.53:867][952]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.26-20.57.53:867][952]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.26-20.57.53:867][952]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.01.26-20.57.53:868][952]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.01.26-20.57.53:870][952]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.01.26-20.57.53:870][952]LogInit: FAudioDevice initialized with ID 8.
+[2024.01.26-20.57.53:871][952]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.01.26-20.57.53:871][952]LogAudio: Display: Audio Device (ID: 8) registered with world 'TopDownMap'.
+[2024.01.26-20.57.53:871][952]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.01.26-20.57.53:873][952]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2024.01.26-20.57.53:875][952]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2024.01.26-15.57.53
+[2024.01.26-20.57.53:876][952]LogWorld: Bringing up level for play took: 0.001918
+[2024.01.26-20.57.53:876][952]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.01.26-20.57.53:880][952]PIE: Warning: Invalid Simulate Options: Body (BP_TopDownCharacter_C_0.StaticMesh Spaceship_Spaceship) is set to simulate physics but Collision Enabled is incompatible
+[2024.01.26-20.57.53:880][952]PIE: Warning: Invalid Simulate Options: Body (BP_TopDownCharacter_C_0.StaticMesh Spaceship_Spaceship) is set to simulate physics but Collision Enabled is incompatible
+[2024.01.26-20.57.53:881][952]PIE: Server logged in
+[2024.01.26-20.57.53:882][952]PIE: Play in editor total start time 0.12 seconds.
+[2024.01.26-20.57.56:020][ 14]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:BP_TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2024.01.26-20.57.56:690][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.57.56:690][ 41]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.57.56:707][ 41]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-20.57.56:708][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.57.56:709][ 41]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.01.26-20.57.56:711][ 41]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.26-20.57.56:716][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.57.56:733][ 41]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.26-20.57.56:733][ 41]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.01.26-20.57.56:733][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.01.26-20.57.56:735][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.01.26-20.57.56:740][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.57.56:742][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.01.26-20.57.57:059][ 42]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.01.26-20.58.02:698][270]LogSlate: Window 'Message Log' being destroyed
+[2024.01.26-20.58.02:707][270]LogSlate: Window 'Message Log' being destroyed
+[2024.01.26-20.58.07:022][466]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.58.07:109][466]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.01.26-20.58.07:128][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.01.26-20.58.07:145][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.01.26-20.58.07:147][466]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/0/LP/TZNUQBTPY4KP6GU6JWUSC4
+[2024.01.26-20.58.07:148][466]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/TZNUQBTPY4KP6GU6JWUSC4E36F4A564005B651D183DBBE398E8ED1.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/__ExternalActors__/TopDown/Maps/TopDownMap/0/LP/TZNUQBTPY4KP6GU6JWUSC4.uasset'
+[2024.01.26-20.58.07:160][466]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 3.65 sec)
+[2024.01.26-20.58.07:162][466]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_7085C22BD81A4AD301_1145539000
+[2024.01.26-20.58.07:162][466]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_UAID_7085C22BD81A4AD301_1145539000
+[2024.01.26-20.58.15:529][123]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.58.15:577][123]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2024.01.26-20.58.15:578][123]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_TopDownCharacter276138804235AA3546EC4D8AC8C75B54.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2024.01.26-20.58.15:585][123]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 3.70 sec)
+[2024.01.26-20.58.15:587][123]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2024.01.26-20.58.15:587][123]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2024.01.26-20.58.15:715][132]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.58.15:785][132]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2024.01.26-20.58.15:786][132]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_TopDownCharacterECFEEE114CEE209B072533A73B38FF56.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2024.01.26-20.58.15:794][132]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 3.78 sec)
+[2024.01.26-20.58.15:795][132]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2024.01.26-20.58.15:795][132]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2024.01.26-20.58.15:865][137]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.58.16:033][137]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2024.01.26-20.58.16:034][137]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_TopDownCharacterCA9F0EF8444FA3B1D039DFA7850064B7.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2024.01.26-20.58.16:041][137]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 3.96 sec)
+[2024.01.26-20.58.16:042][137]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2024.01.26-20.58.16:042][137]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2024.01.26-20.58.16:412][176]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2024.01.26-20.58.16:461][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.01.26-20.58.18:011][241]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.26-20.58.18:016][241]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.26-20.58.18:016][241]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2024.01.26-20.58.18:018][241]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 2 ms (total: 35 ms)
+[2024.01.26-20.58.18:019][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.26-20.58.18:019][241]PIE: New page: PIE session: TopDownMap (Jan. 26, 2024, 10:58:18 a.m.)
+[2024.01.26-20.58.18:019][241]LogPlayLevel: Display: Creating online subsystem for client :Context_15
+[2024.01.26-20.58.18:021][241]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.01.26-20.58.18:044][242]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.58.18:050][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006019s)
+[2024.01.26-20.58.18:050][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006071s)
+[2024.01.26-20.58.18:070][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.01.26-20.58.18:073][242]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.58.18:073][242]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-20.58.18:073][242]LogAIModule: Creating AISystem for world TopDownMap
+[2024.01.26-20.58.18:074][242]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.26-20.58.18:074][242]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.26-20.58.18:074][242]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.26-20.58.18:074][242]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.26-20.58.18:075][242]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.01.26-20.58.18:075][242]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 100 ms)
+[2024.01.26-20.58.18:075][242]LogPlayLevel: PIE: World Init took: (0.002492s)
+[2024.01.26-20.58.18:075][242]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.01.26-20.58.18:075][242]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.26-20.58.18:075][242]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.26-20.58.18:075][242]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.26-20.58.18:075][242]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.26-20.58.18:075][242]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.26-20.58.18:075][242]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.26-20.58.18:075][242]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.26-20.58.18:075][242]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.26-20.58.18:076][242]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.26-20.58.18:076][242]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.26-20.58.18:076][242]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.26-20.58.18:078][242]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.26-20.58.18:111][242]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.26-20.58.18:111][242]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.26-20.58.18:111][242]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.26-20.58.18:111][242]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.26-20.58.18:111][242]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.01.26-20.58.18:112][242]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.01.26-20.58.18:114][242]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.01.26-20.58.18:114][242]LogInit: FAudioDevice initialized with ID 9.
+[2024.01.26-20.58.18:114][242]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.01.26-20.58.18:114][242]LogAudio: Display: Audio Device (ID: 9) registered with world 'TopDownMap'.
+[2024.01.26-20.58.18:114][242]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.01.26-20.58.18:117][242]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2024.01.26-20.58.18:119][242]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2024.01.26-15.58.18
+[2024.01.26-20.58.18:120][242]LogWorld: Bringing up level for play took: 0.002343
+[2024.01.26-20.58.18:138][242]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.01.26-20.58.18:142][242]PIE: Server logged in
+[2024.01.26-20.58.18:143][242]PIE: Play in editor total start time 0.127 seconds.
+[2024.01.26-20.58.21:910][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.58.21:910][347]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.58.21:911][347]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-20.58.21:911][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.58.21:911][347]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.01.26-20.58.21:920][347]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.26-20.58.21:925][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.58.21:943][347]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.26-20.58.21:943][347]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.01.26-20.58.21:943][347]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.01.26-20.58.21:948][347]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.01.26-20.58.21:953][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.58.21:956][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.01.26-20.58.22:046][348]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.01.26-20.58.23:621][414]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.26-20.58.23:629][414]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.26-20.58.23:629][414]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2024.01.26-20.58.23:631][414]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 1 ms (total: 37 ms)
+[2024.01.26-20.58.23:631][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.26-20.58.23:632][414]PIE: New page: PIE session: TopDownMap (Jan. 26, 2024, 10:58:23 a.m.)
+[2024.01.26-20.58.23:632][414]LogPlayLevel: Display: Creating online subsystem for client :Context_16
+[2024.01.26-20.58.23:634][414]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.01.26-20.58.23:657][415]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.58.23:663][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006308s)
+[2024.01.26-20.58.23:663][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006356s)
+[2024.01.26-20.58.23:680][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.26-20.58.23:682][415]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.58.23:682][415]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-20.58.23:683][415]LogAIModule: Creating AISystem for world TopDownMap
+[2024.01.26-20.58.23:683][415]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.26-20.58.23:683][415]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.26-20.58.23:683][415]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.26-20.58.23:683][415]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.26-20.58.23:685][415]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.01.26-20.58.23:685][415]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 102 ms)
+[2024.01.26-20.58.23:685][415]LogPlayLevel: PIE: World Init took: (0.002621s)
+[2024.01.26-20.58.23:685][415]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.01.26-20.58.23:685][415]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.26-20.58.23:685][415]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.26-20.58.23:685][415]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.26-20.58.23:685][415]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.26-20.58.23:685][415]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.26-20.58.23:685][415]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.26-20.58.23:685][415]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.26-20.58.23:685][415]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.26-20.58.23:686][415]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.26-20.58.23:686][415]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.26-20.58.23:686][415]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.26-20.58.23:688][415]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.26-20.58.23:734][415]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.26-20.58.23:734][415]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.26-20.58.23:734][415]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.26-20.58.23:734][415]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.26-20.58.23:734][415]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.01.26-20.58.23:735][415]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.01.26-20.58.23:737][415]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.01.26-20.58.23:737][415]LogInit: FAudioDevice initialized with ID 10.
+[2024.01.26-20.58.23:737][415]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.01.26-20.58.23:737][415]LogAudio: Display: Audio Device (ID: 10) registered with world 'TopDownMap'.
+[2024.01.26-20.58.23:737][415]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.01.26-20.58.23:740][415]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2024.01.26-20.58.23:743][415]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2024.01.26-15.58.23
+[2024.01.26-20.58.23:743][415]LogWorld: Bringing up level for play took: 0.002585
+[2024.01.26-20.58.23:744][415]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.01.26-20.58.23:748][415]PIE: Server logged in
+[2024.01.26-20.58.23:749][415]PIE: Play in editor total start time 0.12 seconds.
+[2024.01.26-20.58.25:589][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.58.25:589][468]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.58.25:589][468]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-20.58.25:589][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.58.25:590][468]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.01.26-20.58.25:616][468]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.26-20.58.25:621][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.58.25:640][468]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.26-20.58.25:640][468]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.01.26-20.58.25:640][468]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.01.26-20.58.25:642][468]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.01.26-20.58.25:658][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.58.25:662][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.01.26-20.58.25:748][469]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.01.26-20.58.38:182][287]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.58.38:233][287]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.58.38:297][287]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2024.01.26-20.58.38:298][287]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_TopDownCharacter72061C014F40E4C0038C80B73839A0A0.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2024.01.26-20.58.38:305][287]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 4.08 sec)
+[2024.01.26-20.58.38:306][287]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2024.01.26-20.58.38:306][287]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2024.01.26-20.58.38:457][302]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.58.38:525][302]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2024.01.26-20.58.38:526][302]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_TopDownCharacter1808A6C6447DE5D048C43AB97B18E8CC.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2024.01.26-20.58.38:534][302]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 4.16 sec)
+[2024.01.26-20.58.38:536][302]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2024.01.26-20.58.38:536][302]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2024.01.26-20.58.41:391][504]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2024.01.26-20.58.41:508][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.26-20.58.42:880][559]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.26-20.58.42:885][559]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.26-20.58.42:885][559]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2024.01.26-20.58.42:887][559]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 1 ms (total: 39 ms)
+[2024.01.26-20.58.42:887][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.26-20.58.42:887][559]PIE: New page: PIE session: TopDownMap (Jan. 26, 2024, 10:58:42 a.m.)
+[2024.01.26-20.58.42:887][559]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2024.01.26-20.58.42:890][559]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.01.26-20.58.42:913][560]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.58.42:919][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006137s)
+[2024.01.26-20.58.42:919][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006192s)
+[2024.01.26-20.58.42:945][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.01.26-20.58.42:949][560]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.58.42:949][560]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-20.58.42:949][560]LogAIModule: Creating AISystem for world TopDownMap
+[2024.01.26-20.58.42:950][560]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.26-20.58.42:950][560]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.26-20.58.42:950][560]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.26-20.58.42:950][560]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.26-20.58.42:951][560]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.01.26-20.58.42:951][560]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 103 ms)
+[2024.01.26-20.58.42:951][560]LogPlayLevel: PIE: World Init took: (0.002872s)
+[2024.01.26-20.58.42:952][560]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.01.26-20.58.42:952][560]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.26-20.58.42:952][560]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.26-20.58.42:952][560]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.26-20.58.42:952][560]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.26-20.58.42:952][560]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.26-20.58.42:952][560]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.26-20.58.42:952][560]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.26-20.58.42:952][560]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.26-20.58.42:952][560]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.26-20.58.42:952][560]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.26-20.58.42:952][560]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.26-20.58.42:955][560]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.26-20.58.42:993][560]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.26-20.58.42:993][560]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.26-20.58.42:994][560]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.26-20.58.42:994][560]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.26-20.58.42:994][560]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.01.26-20.58.42:995][560]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.01.26-20.58.42:997][560]LogInit: FAudioDevice initialized with ID 11.
+[2024.01.26-20.58.42:997][560]LogAudio: Display: Audio Device (ID: 11) registered with world 'TopDownMap'.
+[2024.01.26-20.58.42:997][560]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.01.26-20.58.42:997][560]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.01.26-20.58.42:997][560]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.01.26-20.58.43:000][560]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2024.01.26-20.58.43:003][560]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2024.01.26-15.58.43
+[2024.01.26-20.58.43:003][560]LogWorld: Bringing up level for play took: 0.002341
+[2024.01.26-20.58.43:004][560]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.01.26-20.58.43:008][560]PIE: Server logged in
+[2024.01.26-20.58.43:009][560]PIE: Play in editor total start time 0.124 seconds.
+[2024.01.26-20.58.44:638][584]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:BP_TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2024.01.26-20.58.45:450][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.58.45:450][610]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.58.45:450][610]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-20.58.45:450][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.58.45:450][610]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.01.26-20.58.45:459][610]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.26-20.58.45:464][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.58.45:484][610]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.26-20.58.45:484][610]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.01.26-20.58.45:485][610]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.01.26-20.58.45:486][610]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.01.26-20.58.45:492][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.58.45:495][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.26-20.58.45:575][611]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.01.26-20.58.49:058][697]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.58.49:138][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.01.26-20.58.49:158][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.01.26-20.58.49:176][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.01.26-20.58.49:178][697]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/0/LP/TZNUQBTPY4KP6GU6JWUSC4
+[2024.01.26-20.58.49:179][697]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/TZNUQBTPY4KP6GU6JWUSC4A524668F40E40E2A02D769B6ED9EAFBC.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/__ExternalActors__/TopDown/Maps/TopDownMap/0/LP/TZNUQBTPY4KP6GU6JWUSC4.uasset'
+[2024.01.26-20.58.49:192][697]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 4.29 sec)
+[2024.01.26-20.58.49:193][697]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_7085C22BD81A4AD301_1145539000
+[2024.01.26-20.58.49:193][697]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_UAID_7085C22BD81A4AD301_1145539000
+[2024.01.26-20.58.50:237][749]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.26-20.58.50:243][749]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.26-20.58.50:243][749]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2024.01.26-20.58.50:245][749]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 1 ms (total: 41 ms)
+[2024.01.26-20.58.50:245][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.26-20.58.50:245][749]PIE: New page: PIE session: TopDownMap (Jan. 26, 2024, 10:58:50 a.m.)
+[2024.01.26-20.58.50:245][749]LogPlayLevel: Display: Creating online subsystem for client :Context_19
+[2024.01.26-20.58.50:247][749]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.01.26-20.58.50:269][750]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.58.50:279][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009977s)
+[2024.01.26-20.58.50:279][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.010100s)
+[2024.01.26-20.58.50:296][750]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.01.26-20.58.50:298][750]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.58.50:298][750]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-20.58.50:298][750]LogAIModule: Creating AISystem for world TopDownMap
+[2024.01.26-20.58.50:299][750]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.26-20.58.50:299][750]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.26-20.58.50:299][750]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.26-20.58.50:299][750]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.26-20.58.50:300][750]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.01.26-20.58.50:301][750]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 105 ms)
+[2024.01.26-20.58.50:301][750]LogPlayLevel: PIE: World Init took: (0.002826s)
+[2024.01.26-20.58.50:301][750]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.01.26-20.58.50:301][750]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.26-20.58.50:301][750]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.26-20.58.50:301][750]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.26-20.58.50:301][750]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.26-20.58.50:301][750]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.26-20.58.50:301][750]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.26-20.58.50:301][750]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.26-20.58.50:301][750]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.26-20.58.50:302][750]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.26-20.58.50:302][750]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.26-20.58.50:302][750]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.26-20.58.50:304][750]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.26-20.58.50:337][750]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.26-20.58.50:337][750]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.26-20.58.50:337][750]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.26-20.58.50:337][750]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.26-20.58.50:338][750]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.01.26-20.58.50:338][750]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.01.26-20.58.50:340][750]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.01.26-20.58.50:340][750]LogInit: FAudioDevice initialized with ID 12.
+[2024.01.26-20.58.50:340][750]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.01.26-20.58.50:340][750]LogAudio: Display: Audio Device (ID: 12) registered with world 'TopDownMap'.
+[2024.01.26-20.58.50:340][750]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.01.26-20.58.50:343][750]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2024.01.26-20.58.50:345][750]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2024.01.26-15.58.50
+[2024.01.26-20.58.50:345][750]LogWorld: Bringing up level for play took: 0.001860
+[2024.01.26-20.58.50:370][750]PIE: Server logged in
+[2024.01.26-20.58.50:371][750]PIE: Play in editor total start time 0.128 seconds.
+[2024.01.26-20.58.59:221][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.58.59:221][993]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.58.59:221][993]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-20.58.59:221][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.58.59:222][993]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.01.26-20.58.59:232][993]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.26-20.58.59:237][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.58.59:266][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.58.59:266][993]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.01.26-20.58.59:266][993]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.01.26-20.58.59:268][993]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.01.26-20.58.59:278][993]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.01.26-20.58.59:380][994]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.01.26-20.59.09:351][860]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.26-20.59.09:434][860]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2024.01.26-20.59.09:435][860]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_TopDownCharacter04BC4F0449CE6A1CAE207898892A6628.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2024.01.26-20.59.09:444][860]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 4.39 sec)
+[2024.01.26-20.59.09:445][860]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2024.01.26-20.59.09:445][860]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2024.01.26-20.59.10:214][930]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2024.01.26-20.59.10:291][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.26-20.59.13:291][137]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.26-20.59.13:296][137]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.26-20.59.13:296][137]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2024.01.26-20.59.13:298][137]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 1 ms (total: 42 ms)
+[2024.01.26-20.59.13:298][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.26-20.59.13:298][137]PIE: New page: PIE session: TopDownMap (Jan. 26, 2024, 10:59:13 a.m.)
+[2024.01.26-20.59.13:298][137]LogPlayLevel: Display: Creating online subsystem for client :Context_20
+[2024.01.26-20.59.13:300][137]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.01.26-20.59.13:322][138]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.59.13:328][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006037s)
+[2024.01.26-20.59.13:328][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006089s)
+[2024.01.26-20.59.13:350][138]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.01.26-20.59.13:353][138]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-20.59.13:353][138]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-20.59.13:354][138]LogAIModule: Creating AISystem for world TopDownMap
+[2024.01.26-20.59.13:355][138]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.26-20.59.13:355][138]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.26-20.59.13:355][138]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.26-20.59.13:355][138]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.26-20.59.13:357][138]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.01.26-20.59.13:357][138]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 107 ms)
+[2024.01.26-20.59.13:357][138]LogPlayLevel: PIE: World Init took: (0.003638s)
+[2024.01.26-20.59.13:357][138]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.01.26-20.59.13:357][138]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.26-20.59.13:357][138]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.26-20.59.13:357][138]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.26-20.59.13:357][138]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.26-20.59.13:357][138]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.26-20.59.13:357][138]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.26-20.59.13:357][138]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.26-20.59.13:357][138]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.26-20.59.13:358][138]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.26-20.59.13:358][138]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.26-20.59.13:358][138]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.26-20.59.13:360][138]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.26-20.59.13:396][138]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.26-20.59.13:396][138]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.26-20.59.13:396][138]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.26-20.59.13:396][138]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.26-20.59.13:396][138]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.01.26-20.59.13:396][138]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.01.26-20.59.13:398][138]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.01.26-20.59.13:398][138]LogInit: FAudioDevice initialized with ID 13.
+[2024.01.26-20.59.13:398][138]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.01.26-20.59.13:398][138]LogAudio: Display: Audio Device (ID: 13) registered with world 'TopDownMap'.
+[2024.01.26-20.59.13:398][138]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.01.26-20.59.13:402][138]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2024.01.26-20.59.13:404][138]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2024.01.26-15.59.13
+[2024.01.26-20.59.13:404][138]LogWorld: Bringing up level for play took: 0.001977
+[2024.01.26-20.59.13:407][138]PIE: Server logged in
+[2024.01.26-20.59.13:408][138]PIE: Play in editor total start time 0.112 seconds.
+[2024.01.26-20.59.21:649][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.59.21:649][453]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.26-20.59.21:649][453]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-20.59.21:650][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.59.21:650][453]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.01.26-20.59.21:679][453]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.26-20.59.21:684][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-20.59.21:702][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-20.59.21:702][453]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.01.26-20.59.21:702][453]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.01.26-20.59.21:704][453]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.01.26-20.59.21:712][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.01.26-20.59.21:801][454]LogPlayLevel: Display: Destroying online subsystem :Context_20
