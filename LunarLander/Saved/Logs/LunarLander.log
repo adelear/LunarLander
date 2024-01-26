@@ -1035,3 +1035,286 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.26-23.33.38:222][  0]LogSourceControl: Uncontrolled asset enumeration started...
 [2024.01.26-23.33.38:226][  0]LogSourceControl: Uncontrolled asset enumeration finished in 0.00442 seconds (Found 134 uncontrolled assets)
 [2024.01.26-23.33.38:233][  0]BlueprintLog: New page: Editor Load
+[2024.01.26-23.33.38:367][  0]LocalizationService: Localization service is disabled
+[2024.01.26-23.33.38:392][  0]TimingProfiler: Initialize
+[2024.01.26-23.33.38:393][  0]TimingProfiler: OnSessionChanged
+[2024.01.26-23.33.38:393][  0]LoadingProfiler: Initialize
+[2024.01.26-23.33.38:393][  0]LoadingProfiler: OnSessionChanged
+[2024.01.26-23.33.38:393][  0]NetworkingProfiler: Initialize
+[2024.01.26-23.33.38:393][  0]NetworkingProfiler: OnSessionChanged
+[2024.01.26-23.33.38:393][  0]MemoryProfiler: Initialize
+[2024.01.26-23.33.38:393][  0]MemoryProfiler: OnSessionChanged
+[2024.01.26-23.33.38:672][  0]LogFileCache: Scanning file cache for directory 'D:/VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/' took 0.01s
+[2024.01.26-23.33.38:926][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2024.01.26-23.33.39:012][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2024.01.26-23.33.39:017][  0]SourceControl: Revision control is disabled
+[2024.01.26-23.33.39:017][  0]LogUnrealEdMisc: Loading editor; pre map load, took 15.056
+[2024.01.26-23.33.39:017][  0]Cmd: MAP LOAD FILE="../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.01.26-23.33.39:018][  0]LightingResults: New page: Lighting Build
+[2024.01.26-23.33.39:020][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-23.33.39:020][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-23.33.39:021][  0]MapCheck: New page: Map Check
+[2024.01.26-23.33.39:021][  0]LightingResults: New page: Lighting Build
+[2024.01.26-23.33.39:026][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.26-23.33.39:030][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.01.26-23.33.39:046][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2024.01.26-23.33.39:675][  0]LogAssetRegistry: Display: Asset registry cache written as 18.4 MiB to ../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Intermediate/CachedAssetRegistry_*.bin
+[2024.01.26-23.33.39:748][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2024.01.26-23.33.39:816][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2024.01.26-23.33.39:817][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-23.33.39:817][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-23.33.39:831][  0]LogTurnkeySupport: Turnkey Device: Win64@DESKTOP-8FKR3LB: (Name=DESKTOP-8FKR3LB, Type=Computer, Status=Valid, MinAllowed=10.0.18362.0, MaxAllowed=, Current=10.0.19045.0, Flags="Device_InstallSoftwareValid")
+[2024.01.26-23.33.39:832][  0]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.26-23.33.39:833][  0]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.01.26-23.33.39:834][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.26-23.33.39:834][  0]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.26-23.33.39:908][  0]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.26-23.33.39:908][  0]LogWorldPartition: Display: WorldPartition initialize took 73 ms
+[2024.01.26-23.33.39:913][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.26-23.33.39:924][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.01.26-23.33.39:924][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.26-23.33.39:924][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.3ms to complete.
+[2024.01.26-23.33.39:932][  0]LogUnrealEdMisc: Total Editor Startup Time, took 15.970
+[2024.01.26-23.33.39:932][  0]LogShaderCompilers: Display: ================================================
+[2024.01.26-23.33.39:932][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.26-23.33.39:932][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2024.01.26-23.33.39:932][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2024.01.26-23.33.39:932][  0]LogShaderCompilers: Display: RAM used: 240.00 B of 819.20 MiB budget. Usage: 0.00%
+[2024.01.26-23.33.39:932][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.26-23.33.39:932][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.26-23.33.39:932][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.26-23.33.39:932][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.26-23.33.39:932][  0]LogShaderCompilers: Display: ================================================
+[2024.01.26-23.33.40:178][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-23.33.40:198][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-23.33.40:212][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-23.33.40:227][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-23.33.40:336][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.26-23.33.40:336][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngine/UE_5.3/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2024.01.26-23.33.40:337][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.26-23.33.40:337][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngine/UE_5.3/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2024.01.26-23.33.40:337][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.26-23.33.40:338][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngine/UE_5.3/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2024.01.26-23.33.40:338][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.26-23.33.40:338][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngine/UE_5.3/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2024.01.26-23.33.40:339][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.26-23.33.40:339][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngine/UE_5.3/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2024.01.26-23.33.40:339][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.26-23.33.40:340][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngine/UE_5.3/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2024.01.26-23.33.40:340][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.26-23.33.40:340][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngine/UE_5.3/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2024.01.26-23.33.40:340][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.26-23.33.40:341][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngine/UE_5.3/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2024.01.26-23.33.40:341][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.26-23.33.40:341][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngine/UE_5.3/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2024.01.26-23.33.40:342][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.26-23.33.40:342][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngine/UE_5.3/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2024.01.26-23.33.40:636][  0]LogSlate: Took 0.000881 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.26-23.33.40:648][  0]LogSlate: Took 0.000613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.01.26-23.33.40:653][  0]LogSlate: Took 0.000625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.01.26-23.33.40:658][  0]LogSlate: Took 0.000422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.01.26-23.33.40:697][  0]LogViewport: Scene viewport resized to 1566x492, mode Windowed.
+[2024.01.26-23.33.40:787][  0]LogSlate: Took 0.000667 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.26-23.33.41:173][  0]LogStall: Startup...
+[2024.01.26-23.33.41:176][  0]LogStall: Startup complete.
+[2024.01.26-23.33.41:199][  0]LogLoad: (Engine Initialization) Total time: 17.24 seconds
+[2024.01.26-23.33.41:200][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.01.26-23.33.41:297][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.01.26-23.33.41:471][  1]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2024.01.26-23.33.41:476][  1]Running Python start-up script 'D:/UnrealEngine/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.062652 secs
+[2024.01.26-23.33.41:494][  1]LogAssetRegistry: AssetRegistryGather time 2.4473s: AssetDataDiscovery 0.1877s, AssetDataGather 2.2084s, StoreResults 0.0512s.
+[2024.01.26-23.33.41:523][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2024.01.26-23.33.41:696][  1]LogD3D12RHI: Cannot end block when stack is empty
+[2024.01.26-23.33.52:744][179]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.26-23.33.52:752][179]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.26-23.33.52:752][179]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.26-23.33.52:757][179]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 5 ms
+[2024.01.26-23.33.52:764][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.26-23.33.52:771][179]PIE: New page: PIE session: ThirdPersonMap (Jan. 26, 2024, 1:33:52 p.m.)
+[2024.01.26-23.33.52:773][179]LogPlayLevel: Display: Creating online subsystem for client :Context_1
+[2024.01.26-23.33.52:777][179]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2024.01.26-23.33.52:805][180]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.26-23.33.52:814][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008635s)
+[2024.01.26-23.33.52:814][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.008713s)
+[2024.01.26-23.33.52:820][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.01.26-23.33.52:823][180]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-23.33.52:823][180]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-23.33.52:824][180]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.26-23.33.52:826][180]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.26-23.33.52:826][180]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.26-23.33.52:826][180]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.26-23.33.52:827][180]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.26-23.33.52:828][180]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.26-23.33.52:829][180]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 76 ms)
+[2024.01.26-23.33.52:829][180]LogPlayLevel: PIE: World Init took: (0.005901s)
+[2024.01.26-23.33.52:830][180]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.01.26-23.33.52:830][180]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.26-23.33.52:830][180]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.26-23.33.52:830][180]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.26-23.33.52:830][180]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.26-23.33.52:830][180]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.26-23.33.52:830][180]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.26-23.33.52:830][180]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.26-23.33.52:830][180]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.26-23.33.52:831][180]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.26-23.33.52:831][180]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.26-23.33.52:831][180]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.26-23.33.52:840][180]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.26-23.33.52:876][180]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.26-23.33.52:877][180]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.26-23.33.52:877][180]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.26-23.33.52:877][180]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.26-23.33.52:877][180]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.01.26-23.33.52:877][180]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.01.26-23.33.52:880][180]LogInit: FAudioDevice initialized with ID 2.
+[2024.01.26-23.33.52:880][180]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.01.26-23.33.52:880][180]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2024.01.26-23.33.52:880][180]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.01.26-23.33.52:881][180]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.01.26-23.33.52:887][180]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.26-23.33.52:890][180]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.26-18.33.52
+[2024.01.26-23.33.52:892][180]LogWorld: Bringing up level for play took: 0.003977
+[2024.01.26-23.33.52:954][180]PIE: Server logged in
+[2024.01.26-23.33.52:955][180]PIE: Play in editor total start time 0.205 seconds.
+[2024.01.26-23.33.54:514][184]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.26-23.34.03:449][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-23.34.03:449][557]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.26-23.34.03:451][557]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.26-23.34.03:456][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-23.34.03:458][557]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.26-23.34.03:470][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.26-23.34.03:475][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.26-23.34.03:482][557]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.26-23.34.03:483][557]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.01.26-23.34.03:484][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.01.26-23.34.03:487][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.01.26-23.34.03:496][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.26-23.34.03:505][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.01.26-23.34.03:584][558]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2024.01.26-23.34.08:104][728]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-23.34.10:906][818]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.26-23.34.10:910][818]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-23.34.10:910][818]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.26-23.34.10:930][818]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.01.26-23.34.12:197][818]LogSlate: Took 0.000909 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.01.26-23.34.12:493][819]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-23.34.12:597][820]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-23.34.15:982][935]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2024.01.26-23.34.18:256][994]LogViewport: Scene viewport resized to 1139x898, mode Windowed.
+[2024.01.26-23.34.18:438][996]LogViewport: Scene viewport resized to 467x292, mode Windowed.
+[2024.01.26-23.34.18:780][  2]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2024.01.26-23.34.19:225][ 29]LogSlate: Window 'BP_ThirdPersonCharacter' being destroyed
+[2024.01.26-23.34.48:786][153]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.26-23.34.48:803][153]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.26-23.34.48:820][154]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.01.26-23.34.50:608][242]LogContentBrowser: Attempting asset rename: NewFolder -> Meshes
+[2024.01.26-23.34.50:608][242]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.26-23.34.53:316][357]LogAssetTools: Warning: Failed to import 'C:\Users\veron\Downloads\spaceship (1)/source/SpaceShip/SpaceShip.blend'. Unknown extension 'blend'.
+[2024.01.26-23.34.53:324][357]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\veron\Downloads\spaceship (1)/source/SpaceShip/SpaceShip.fbx)
+[2024.01.26-23.34.53:352][357]LogFbx: Loading FBX Scene from C:\Users\veron\Downloads\spaceship (1)/source/SpaceShip/SpaceShip.fbx
+[2024.01.26-23.34.53:378][357]LogFbx: FBX Scene Loaded Succesfully
+[2024.01.26-23.34.57:733][357]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.01.26-23.34.57:898][357]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\dovgo\OneDrive\Desktop\3D\Texture\StarShip2\Material.001_Base_color.jpg
+[2024.01.26-23.34.57:898][357]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\dovgo\OneDrive\Desktop\3D\Texture\StarShip2\Material.001_Emissive.jpg
+[2024.01.26-23.34.57:898][357]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\dovgo\OneDrive\Desktop\3D\Texture\StarShip2\Material.001_Roughness.jpg
+[2024.01.26-23.34.57:899][357]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\dovgo\OneDrive\Desktop\3D\Texture\StarShip2\Material.001_Normal_DirectX.jpg
+[2024.01.26-23.34.57:917][357]LogFbx: Display: Triangulating static mesh Starship
+[2024.01.26-23.34.58:371][357]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.01.26-23.35.00:490][357]LogSlate: Window 'Interchange Pipeline Configuration (Import Content)' being destroyed
+[2024.01.26-23.35.00:513][357]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.00:513][357]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...(1)/source/SpaceShip/StarShip2.mtl]
+[2024.01.26-23.35.00:515][357]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.01.26-23.35.00:516][357]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.01.26-23.35.00:517][357]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.01.26-23.35.00:518][357]LogInterchangeEngine: [Pending] Importing -  (5)
+[2024.01.26-23.35.00:518][357]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.01.26-23.35.00:519][357]LogInterchangeEngine: [Pending] Importing -  (7)
+[2024.01.26-23.35.00:520][357]LogInterchangeEngine: [Pending] Importing -  (8)
+[2024.01.26-23.35.00:520][357]LogInterchangeEngine: [Pending] Importing -  (9)
+[2024.01.26-23.35.00:521][357]LogInterchangeEngine: [Pending] Importing -  (10)
+[2024.01.26-23.35.00:521][357]LogInterchangeEngine: [Pending] Importing -  (11)
+[2024.01.26-23.35.00:522][357]LogInterchangeEngine: [Pending] Importing -  (12)
+[2024.01.26-23.35.00:538][357]LogAssetTools: Warning: Failed to import 'C:\Users\veron\Downloads\spaceship (1)/source/SpaceShip/Texture.zip'. Unknown extension 'zip'.
+[2024.01.26-23.35.00:555][357]LogAssetTools: Warning: Failed to import 'C:\Users\veron\Downloads\spaceship (1)/source/SpaceShip.zip'. Unknown extension 'zip'.
+[2024.01.26-23.35.00:555][357]LogInterchangeEngine: [Pending] Importing -  (13)
+[2024.01.26-23.35.00:556][357]LogInterchangeEngine: [Pending] Importing -  (14)
+[2024.01.26-23.35.00:557][357]LogInterchangeEngine: [Pending] Importing -  (15)
+[2024.01.26-23.35.00:557][357]LogInterchangeEngine: [Pending] Importing -  (16)
+[2024.01.26-23.35.00:558][357]LogInterchangeEngine: [Pending] Importing -  (17)
+[2024.01.26-23.35.00:558][357]LogInterchangeEngine: [Pending] Importing -  (18)
+[2024.01.26-23.35.00:686][358]LogInterchangeEngine: [Pending] Importing -  (18)
+[2024.01.26-23.35.00:687][358]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.26-23.35.00:698][358]LogInterchangeEngine: Error: [Failure] Import Done
+[2024.01.26-23.35.00:698][358]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.00:698][358]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...(1)/source/SpaceShip/StarShip2.obj]
+[2024.01.26-23.35.00:706][358]LogTemp: Display: Interchange Obj translator: Unknown keyword: map_refl
+[2024.01.26-23.35.00:754][358]LogTemp: Display: Interchange Obj translator: Unknown keyword: s
+[2024.01.26-23.35.01:038][359]LogInterchangeEngine: Error: [Failure] Import Done
+[2024.01.26-23.35.01:053][359]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.01:572][359]LogStaticMesh: Display: Building static mesh StarShip2...
+[2024.01.26-23.35.01:578][359]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.01:578][359]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.01:578][359]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...xture/Black and Blue/Material.001_Base_color.jpg]
+[2024.01.26-23.35.01:585][359]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Black and Blue/Material.001_Base_color.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.26-23.35.01:624][360]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.01:730][360]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.01:732][360]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.01:732][360]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.01:732][360]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...xture/Black and Blue/Material.001_Emissive.jpg]
+[2024.01.26-23.35.02:219][360]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Black and Blue/Material.001_Emissive.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.26-23.35.02:278][360]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.02:278][360]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.02:278][360]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...exture/Black and Red/Material.001_Base_color.jpg]
+[2024.01.26-23.35.02:300][360]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Black and Red/Material.001_Base_color.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.26-23.35.02:336][360]LogStaticMesh: Built static mesh [0.77s] /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/StarShip2.StarShip2
+[2024.01.26-23.35.02:384][360]LogStaticMesh: Warning: StarShip2 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2024.01.26-23.35.02:384][360]LogStaticMesh: Warning: StarShip2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.01.26-23.35.02:418][361]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.02:418][361]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.02:418][361]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...exture/Black and Red/Material.001_Emissive.jpg]
+[2024.01.26-23.35.02:424][361]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.02:435][361]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Black and Red/Material.001_Emissive.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.26-23.35.02:439][361]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.02:492][361]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Blue/Material_001_Base_color.Material_001_Base_color (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.01.26-23.35.02:505][361]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.02:525][361]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.02:908][361]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.02:909][361]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.02:909][361]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...ce/SpaceShip/Texture/Material.001_Base_color.jpg]
+[2024.01.26-23.35.03:027][362]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.03:043][362]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.05:210][424]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Blue/Material_001_Emissive.Material_001_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.01.26-23.35.05:347][427]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Material.001_Base_color.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.26-23.35.05:465][427]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.05:465][427]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.05:465][427]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...ce/SpaceShip/Texture/Material.001_Emissive.jpg]
+[2024.01.26-23.35.05:467][427]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Material.001_Emissive.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.26-23.35.05:547][427]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.05:547][427]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.05:547][427]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...ce/SpaceShip/Texture/Material.001_Metallic.jpg]
+[2024.01.26-23.35.05:568][427]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Material.001_Metallic.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.26-23.35.05:649][427]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.05:649][427]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.05:649][427]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...ce/SpaceShip/Texture/Material.001_Mixed_AO.jpg]
+[2024.01.26-23.35.05:682][427]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.05:709][427]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.05:726][427]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.05:743][427]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.06:320][428]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Red/Material_001_Base_color.Material_001_Base_color (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.01.26-23.35.06:424][428]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Material.001_Mixed_AO.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.26-23.35.06:481][432]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.06:481][432]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.06:481][432]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...ce/SpaceShip/Texture/Material.001_Normal_DirectX.jpg]
+[2024.01.26-23.35.06:512][432]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.06:529][432]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.07:292][436]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Material.001_Normal_DirectX.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.26-23.35.08:028][439]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.01.26-23.35.08:089][439]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Red/Material_001_Emissive.Material_001_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.01.26-23.35.08:330][439]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.08:330][439]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.08:330][439]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...ce/SpaceShip/Texture/Material.001_Roughness.jpg]
+[2024.01.26-23.35.08:362][440]LogInterchangeEngine: [Success] Import Done
+[2024.01.26-23.35.08:378][440]LogInterchangeEngine: [Pending] Importing
+[2024.01.26-23.35.08:766][440]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Base_color.Material_001_Base_color (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.01.26-23.35.08:835][440]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Material.001_Roughness.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
