@@ -1193,3 +1193,1065 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.27-01.07.40:665][457]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
 [2024.01.27-01.07.40:679][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
 [2024.01.27-01.07.40:719][458]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2024.01.27-01.07.52:790][663]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-01.07.52:796][663]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-01.07.52:796][663]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-01.07.52:799][663]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 9 ms)
+[2024.01.27-01.07.52:799][663]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-01.07.52:799][663]PIE: New page: PIE session: ThirdPersonMap (Jan. 26, 2024, 3:07:52 p.m.)
+[2024.01.27-01.07.52:839][663]LogPlayLevel: Display: Creating online subsystem for client :Context_3
+[2024.01.27-01.07.52:841][663]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2024.01.27-01.07.52:858][664]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.07.52:862][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004744s)
+[2024.01.27-01.07.52:862][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004797s)
+[2024.01.27-01.07.52:869][664]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.01.27-01.07.52:869][664]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.07.52:870][664]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.07.52:870][664]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-01.07.52:871][664]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-01.07.52:871][664]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-01.07.52:871][664]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-01.07.52:871][664]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-01.07.52:872][664]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-01.07.52:873][664]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 73 ms)
+[2024.01.27-01.07.52:873][664]LogPlayLevel: PIE: World Init took: (0.003145s)
+[2024.01.27-01.07.52:873][664]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.01.27-01.07.52:873][664]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-01.07.52:873][664]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-01.07.52:873][664]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-01.07.52:873][664]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-01.07.52:873][664]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-01.07.52:873][664]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-01.07.52:873][664]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-01.07.52:873][664]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-01.07.52:873][664]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-01.07.52:873][664]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-01.07.52:873][664]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-01.07.52:876][664]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-01.07.52:910][664]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.27-01.07.52:910][664]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-01.07.52:910][664]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-01.07.52:910][664]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-01.07.52:911][664]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.01.27-01.07.52:911][664]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.01.27-01.07.52:913][664]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.01.27-01.07.52:913][664]LogInit: FAudioDevice initialized with ID 3.
+[2024.01.27-01.07.52:913][664]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.01.27-01.07.52:913][664]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2024.01.27-01.07.52:913][664]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.01.27-01.07.52:916][664]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-01.07.52:919][664]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.26-20.07.52
+[2024.01.27-01.07.52:919][664]LogWorld: Bringing up level for play took: 0.002196
+[2024.01.27-01.07.52:924][664]PIE: Server logged in
+[2024.01.27-01.07.52:925][664]PIE: Play in editor total start time 0.128 seconds.
+[2024.01.27-01.07.56:629][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.07.56:629][770]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.07.56:629][770]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.07.56:630][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.07.56:630][770]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-01.07.56:651][770]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-01.07.56:655][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.07.56:661][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.07.56:661][770]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.01.27-01.07.56:661][770]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.01.27-01.07.56:663][770]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.01.27-01.07.56:680][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.01.27-01.07.56:733][771]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.01.27-01.07.57:535][791]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.07.57:542][791]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.07.57:542][791]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.07.57:556][791]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.01.27-01.07.58:772][791]LogSlate: Took 0.000776 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.01.27-01.07.59:044][792]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.07.59:143][793]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.08.02:473][910]LogSlate: Window 'BP_ThirdPersonCharacter' being destroyed
+[2024.01.27-01.08.11:276][598]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.08.11:393][600]LogEditorTransaction: Undo Add Component
+[2024.01.27-01.08.50:154][341]LogSlate: Took 0.001711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.27-01.08.57:785][629]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.27-01.08.57:796][629]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.27-01.08.57:810][630]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.01.27-01.09.01:954][816]LogContentBrowser: Attempting asset rename: NewFolder -> Meshes
+[2024.01.27-01.09.01:971][816]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.27-01.09.09:330][162]LogAssetTools: Warning: Failed to import 'C:\Users\veron\Downloads\spaceship (1)/source/SpaceShip/SpaceShip.blend'. Unknown extension 'blend'.
+[2024.01.27-01.09.09:337][162]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\veron\Downloads\spaceship (1)/source/SpaceShip/SpaceShip.fbx)
+[2024.01.27-01.09.09:366][162]LogFbx: Loading FBX Scene from C:\Users\veron\Downloads\spaceship (1)/source/SpaceShip/SpaceShip.fbx
+[2024.01.27-01.09.09:394][162]LogFbx: FBX Scene Loaded Succesfully
+[2024.01.27-01.09.10:930][162]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.01.27-01.09.11:063][162]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\dovgo\OneDrive\Desktop\3D\Texture\StarShip2\Material.001_Base_color.jpg
+[2024.01.27-01.09.11:063][162]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\dovgo\OneDrive\Desktop\3D\Texture\StarShip2\Material.001_Emissive.jpg
+[2024.01.27-01.09.11:063][162]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\dovgo\OneDrive\Desktop\3D\Texture\StarShip2\Material.001_Roughness.jpg
+[2024.01.27-01.09.11:064][162]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\dovgo\OneDrive\Desktop\3D\Texture\StarShip2\Material.001_Normal_DirectX.jpg
+[2024.01.27-01.09.11:079][162]LogFbx: Display: Triangulating static mesh Starship
+[2024.01.27-01.09.11:527][162]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.01.27-01.09.13:652][162]LogSlate: Window 'Interchange Pipeline Configuration (Import Content)' being destroyed
+[2024.01.27-01.09.13:676][162]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.13:676][162]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...(1)/source/SpaceShip/StarShip2.mtl]
+[2024.01.27-01.09.13:678][162]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.01.27-01.09.13:679][162]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.01.27-01.09.13:680][162]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.01.27-01.09.13:681][162]LogInterchangeEngine: [Pending] Importing -  (5)
+[2024.01.27-01.09.13:681][162]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.01.27-01.09.13:682][162]LogInterchangeEngine: [Pending] Importing -  (7)
+[2024.01.27-01.09.13:682][162]LogInterchangeEngine: [Pending] Importing -  (8)
+[2024.01.27-01.09.13:683][162]LogInterchangeEngine: [Pending] Importing -  (9)
+[2024.01.27-01.09.13:684][162]LogInterchangeEngine: [Pending] Importing -  (10)
+[2024.01.27-01.09.13:684][162]LogInterchangeEngine: [Pending] Importing -  (11)
+[2024.01.27-01.09.13:685][162]LogInterchangeEngine: [Pending] Importing -  (12)
+[2024.01.27-01.09.13:703][162]LogAssetTools: Warning: Failed to import 'C:\Users\veron\Downloads\spaceship (1)/source/SpaceShip/Texture.zip'. Unknown extension 'zip'.
+[2024.01.27-01.09.13:719][162]LogAssetTools: Warning: Failed to import 'C:\Users\veron\Downloads\spaceship (1)/source/SpaceShip.zip'. Unknown extension 'zip'.
+[2024.01.27-01.09.13:720][162]LogInterchangeEngine: [Pending] Importing -  (13)
+[2024.01.27-01.09.13:720][162]LogInterchangeEngine: [Pending] Importing -  (14)
+[2024.01.27-01.09.13:721][162]LogInterchangeEngine: [Pending] Importing -  (15)
+[2024.01.27-01.09.13:722][162]LogInterchangeEngine: [Pending] Importing -  (16)
+[2024.01.27-01.09.13:722][162]LogInterchangeEngine: [Pending] Importing -  (17)
+[2024.01.27-01.09.13:723][162]LogInterchangeEngine: [Pending] Importing -  (18)
+[2024.01.27-01.09.13:851][163]LogInterchangeEngine: [Pending] Importing -  (18)
+[2024.01.27-01.09.13:978][163]LogInterchangeEngine: Error: [Failure] Import Done
+[2024.01.27-01.09.13:978][163]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.13:979][163]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...(1)/source/SpaceShip/StarShip2.obj]
+[2024.01.27-01.09.13:985][163]LogShaderCompilers: Display: ================================================
+[2024.01.27-01.09.13:985][163]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.27-01.09.13:985][163]LogShaderCompilers: Display: Total job queries 4, among them cache hits 0 (0.00%)
+[2024.01.27-01.09.13:985][163]LogShaderCompilers: Display: Tracking 4 distinct input hashes that result in 4 distinct outputs (100.00%)
+[2024.01.27-01.09.13:985][163]LogShaderCompilers: Display: RAM used: 81.16 KiB of 819.20 MiB budget. Usage: 0.01%
+[2024.01.27-01.09.13:985][163]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.27-01.09.13:985][163]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.27-01.09.13:985][163]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.27-01.09.13:985][163]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.27-01.09.13:985][163]LogShaderCompilers: Display: ================================================
+[2024.01.27-01.09.13:989][163]LogTemp: Display: Interchange Obj translator: Unknown keyword: map_refl
+[2024.01.27-01.09.14:028][163]LogTemp: Display: Interchange Obj translator: Unknown keyword: s
+[2024.01.27-01.09.14:269][164]LogInterchangeEngine: Error: [Failure] Import Done
+[2024.01.27-01.09.14:284][164]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.14:783][164]LogStaticMesh: Display: Building static mesh StarShip2...
+[2024.01.27-01.09.14:792][164]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.14:792][164]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.14:792][164]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...xture/Black and Blue/Material.001_Base_color.jpg]
+[2024.01.27-01.09.14:832][165]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Black and Blue/Material.001_Base_color.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.14:836][165]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.14:854][165]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.14:940][165]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.14:940][165]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.14:940][165]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...xture/Black and Blue/Material.001_Emissive.jpg]
+[2024.01.27-01.09.15:307][165]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Black and Blue/Material.001_Emissive.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.15:367][165]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.15:367][165]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.15:368][165]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...exture/Black and Red/Material.001_Base_color.jpg]
+[2024.01.27-01.09.15:383][166]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Black and Red/Material.001_Base_color.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.15:387][166]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.15:403][166]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.15:413][166]LogStaticMesh: Built static mesh [0.63s] /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/StarShip2.StarShip2
+[2024.01.27-01.09.15:454][166]LogStaticMesh: Warning: StarShip2 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2024.01.27-01.09.15:454][166]LogStaticMesh: Warning: StarShip2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.01.27-01.09.15:491][166]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.15:501][166]LogSlate: Window 'Message Log' being destroyed
+[2024.01.27-01.09.15:515][166]LogSlate: Window 'Message Log' being destroyed
+[2024.01.27-01.09.15:561][166]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Blue/Material_001_Base_color.Material_001_Base_color (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.15:824][166]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.15:824][166]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.15:824][166]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...exture/Black and Red/Material.001_Emissive.jpg]
+[2024.01.27-01.09.15:899][167]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.15:919][167]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.16:844][177]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Black and Red/Material.001_Emissive.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.16:933][177]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.16:933][177]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.16:933][177]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...ce/SpaceShip/Texture/Material.001_Base_color.jpg]
+[2024.01.27-01.09.16:934][177]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Material.001_Base_color.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.16:990][178]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Blue/Material_001_Emissive.Material_001_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.17:069][178]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.17:069][178]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.17:069][178]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...ce/SpaceShip/Texture/Material.001_Emissive.jpg]
+[2024.01.27-01.09.17:074][178]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.17:091][178]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.17:091][178]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Material.001_Emissive.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.17:149][178]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.17:540][179]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.17:540][179]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.17:540][179]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...ce/SpaceShip/Texture/Material.001_Metallic.jpg]
+[2024.01.27-01.09.17:545][179]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Material.001_Metallic.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.17:573][180]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.17:589][180]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Red/Material_001_Base_color.Material_001_Base_color (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.17:591][180]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.17:988][180]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.17:988][180]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.17:988][180]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...ce/SpaceShip/Texture/Material.001_Mixed_AO.jpg]
+[2024.01.27-01.09.18:022][181]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.18:038][181]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.18:501][182]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Material_003.Material_003
+[2024.01.27-01.09.18:543][182]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.09.18:543][182]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.09.18:584][182]LogTexture: Display: Waiting for textures to be ready 0/1 (/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1) ...
+[2024.01.27-01.09.18:759][182]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.09.18:759][182]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.27-01.09.18:759][182]MaterialEditorStats: Shader Count: 0
+[2024.01.27-01.09.18:866][182]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Red/Material_001_Emissive.Material_001_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.18:934][182]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2024.01.27-01.09.19:252][184]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.01.27-01.09.19:252][184]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.27-01.09.19:252][184]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.27-01.09.19:252][184]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.27-01.09.19:252][184]MaterialEditorStats: Shader Count: 4
+[2024.01.27-01.09.19:457][193]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Material.001_Mixed_AO.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.19:680][202]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.19:680][202]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.19:680][202]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...ce/SpaceShip/Texture/Material.001_Normal_DirectX.jpg]
+[2024.01.27-01.09.19:723][203]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Material.001_Normal_DirectX.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.19:728][203]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.19:744][203]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.19:837][203]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Emissive.Material_001_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.19:961][204]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.01.27-01.09.19:964][204]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.19:964][204]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.19:964][204]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...ce/SpaceShip/Texture/Material.001_Roughness.jpg]
+[2024.01.27-01.09.20:257][205]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.20:274][205]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.20:474][205]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Metallic.Material_001_Metallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.21:797][237]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/source/SpaceShip/Texture/Material.001_Roughness.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.21:845][239]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.21:845][239]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.21:845][239]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...aceship (1)/textures/Material.001_Base_color.jpg]
+[2024.01.27-01.09.21:884][240]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/textures/Material.001_Base_color.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.21:889][240]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.21:987][240]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.21:988][240]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.21:988][240]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.21:988][240]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...aceship (1)/textures/Material.001_Emissive.jpg]
+[2024.01.27-01.09.22:006][240]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Mixed_AO.Material_001_Mixed_AO (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.22:108][241]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/textures/Material.001_Emissive.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.22:176][241]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.22:195][241]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.22:813][242]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.22:813][242]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.22:813][242]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...aceship (1)/textures/Material.001_Metallic.jpg]
+[2024.01.27-01.09.22:843][243]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.22:859][243]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.23:405][249]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/textures/Material.001_Metallic.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.23:478][251]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.23:478][251]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.23:478][251]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...aceship (1)/textures/Material.001_Mixed_AO.jpg]
+[2024.01.27-01.09.23:497][251]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.23:512][251]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.23:512][251]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/textures/Material.001_Mixed_AO.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.23:657][252]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Normal_DirectX.Material_001_Normal_DirectX (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.23:756][253]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.23:756][253]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.23:756][253]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...aceship (1)/textures/Material.001_Normal_DirectX.jpg]
+[2024.01.27-01.09.23:780][253]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.23:793][253]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.24:442][255]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/textures/Material.001_Normal_DirectX.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.25:061][257]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.01.27-01.09.25:063][257]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.25:063][257]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.25:063][257]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/veron/Downl...aceship (1)/textures/Material.001_Roughness.jpg]
+[2024.01.27-01.09.25:064][257]LogInterchangeImport: JPEG file [C:/Users/veron/Downloads/spaceship (1)/textures/Material.001_Roughness.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.01.27-01.09.25:148][258]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.25:163][258]LogInterchangeEngine: [Pending] Importing
+[2024.01.27-01.09.25:619][259]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Base_color.Material_001_Base_color (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.25:960][259]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.26:023][260]LogInterchangeEngine: [Success] Import Done
+[2024.01.27-01.09.27:190][263]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Roughness.Material_001_Roughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.28:171][266]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Base_color.Material_001_Base_color (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.29:711][318]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Emissive.Material_001_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.31:355][423]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Metallic.Material_001_Metallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.31:947][424]LogSlate: Window 'Material_003' being destroyed
+[2024.01.27-01.09.31:950][424]LogSlate: Window 'Material_003' being destroyed
+[2024.01.27-01.09.32:634][427]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Mixed_AO.Material_001_Mixed_AO (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.34:424][455]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Normal_DirectX.Material_001_Normal_DirectX (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.35:856][495]LogTexture: Display: Building textures: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Roughness.Material_001_Roughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.062484 MB), EncodeSpeed: Fast
+[2024.01.27-01.09.41:533][804]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.01.27-01.09.41:641][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.01.27-01.09.44:789][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.27-01.09.44:804][987]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.09.44:872][987]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.09.45:076][987]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.010891 seconds
+[2024.01.27-01.09.45:111][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.09.45:112][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacter38E65021405C2D075056D487F7A3746D.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.09.45:160][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/SpaceShip
+[2024.01.27-01.09.45:160][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/SpaceShipC94362E640ED9750A4CD249EAFBCBB7C.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/SpaceShip.uasset'
+[2024.01.27-01.09.45:219][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Material_003
+[2024.01.27-01.09.45:219][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_003A90EFD8D4668050548596DAB7759D161.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Material_003.uasset'
+[2024.01.27-01.09.45:225][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Metallic
+[2024.01.27-01.09.45:225][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_MetallicF924E9FD42DF9E872D3113BB9D097768.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Metallic.uasset'
+[2024.01.27-01.09.45:232][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Mixed_AO
+[2024.01.27-01.09.45:232][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_Mixed_AO626F0BF94D1B876C3CC0569FD7719207.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Mixed_AO.uasset'
+[2024.01.27-01.09.45:239][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Normal_DirectX
+[2024.01.27-01.09.45:239][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_Normal_DirectXEECBA95747B3C05F3002A599855C2E17.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Normal_DirectX.uasset'
+[2024.01.27-01.09.45:244][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Roughness
+[2024.01.27-01.09.45:244][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_Roughness52356C7F4AE39B2CD04EDE96F018C8DB.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Roughness.uasset'
+[2024.01.27-01.09.45:280][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/StarShip2
+[2024.01.27-01.09.45:280][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/StarShip2D96A393543ECFB3B10AFF4A365E0D093.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/StarShip2.uasset'
+[2024.01.27-01.09.45:287][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Blue/Material_001_Base_color
+[2024.01.27-01.09.45:287][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_Base_color1A68E0A5458CD3C85BF67C8BB7D16B11.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Blue/Material_001_Base_color.uasset'
+[2024.01.27-01.09.45:292][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Blue/Material_001_Emissive
+[2024.01.27-01.09.45:292][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_EmissiveCDBFB22E43783CCD02A240AA6A68FD8A.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Blue/Material_001_Emissive.uasset'
+[2024.01.27-01.09.45:298][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Red/Material_001_Base_color
+[2024.01.27-01.09.45:298][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_Base_color62E6DF494FE585EC73607F810C691461.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Red/Material_001_Base_color.uasset'
+[2024.01.27-01.09.45:303][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Red/Material_001_Emissive
+[2024.01.27-01.09.45:303][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_EmissiveC720ABEF464C21D3E739889EF0AC6223.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Red/Material_001_Emissive.uasset'
+[2024.01.27-01.09.45:310][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Base_color
+[2024.01.27-01.09.45:310][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_Base_color2E32546245A92A5034AF07B34905C051.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Base_color.uasset'
+[2024.01.27-01.09.45:314][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Emissive
+[2024.01.27-01.09.45:314][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_EmissiveBBA2ED524A3C21C338E1789247BD7379.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Emissive.uasset'
+[2024.01.27-01.09.45:321][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Metallic
+[2024.01.27-01.09.45:321][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_Metallic9A25EEBF47FAC1412103EA80FDBF086A.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Metallic.uasset'
+[2024.01.27-01.09.45:327][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Mixed_AO
+[2024.01.27-01.09.45:328][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_Mixed_AOD0B998574EB8A0EBBBB62692F2823A8B.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Mixed_AO.uasset'
+[2024.01.27-01.09.45:334][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Normal_DirectX
+[2024.01.27-01.09.45:334][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_Normal_DirectXCDBF2C0446396ACF9F2D47BBBE29A39C.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Normal_DirectX.uasset'
+[2024.01.27-01.09.45:340][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Roughness
+[2024.01.27-01.09.45:340][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_Roughness0A4FD9EC46388226C1370790C0128020.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Roughness.uasset'
+[2024.01.27-01.09.45:346][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Base_color
+[2024.01.27-01.09.45:346][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_Base_color407032F0413AC840DDDD05B5D8CA30BA.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Base_color.uasset'
+[2024.01.27-01.09.45:351][987]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Emissive
+[2024.01.27-01.09.45:352][987]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_001_Emissive17C1FA67479D6F98C23701BE69450F67.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Emissive.uasset'
+[2024.01.27-01.09.45:360][987]LogFileHelpers: InternalPromptForCheckoutAndSave took 555 ms
+[2024.01.27-01.09.45:365][987]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.27-01.09.45:365][987]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/SpaceShip.SpaceShip
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Material /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Material_003.Material_003
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Metallic.Material_001_Metallic
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Mixed_AO.Material_001_Mixed_AO
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Normal_DirectX.Material_001_Normal_DirectX
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Roughness.Material_001_Roughness
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/StarShip2.StarShip2
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Blue/Material_001_Base_color.Material_001_Base_color
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Blue/Material_001_Emissive.Material_001_Emissive
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Red/Material_001_Base_color.Material_001_Base_color
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Black_and_Red/Material_001_Emissive.Material_001_Emissive
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Base_color.Material_001_Base_color
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Emissive.Material_001_Emissive
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Metallic.Material_001_Metallic
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Mixed_AO.Material_001_Mixed_AO
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Normal_DirectX.Material_001_Normal_DirectX
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Texture/Material_001_Roughness.Material_001_Roughness
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Base_color.Material_001_Base_color
+[2024.01.27-01.09.45:366][987]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/textures/Material_001_Emissive.Material_001_Emissive
+[2024.01.27-01.10.34:700][503]LogContentBrowser: Deferred new asset file creation: Material_004
+[2024.01.27-01.10.34:724][503]LogContentBrowser: Creating deferred item: Material_004
+[2024.01.27-01.10.34:734][504]LogContentBrowser: Renaming the item being created (Deferred Item: Material_004).
+[2024.01.27-01.10.35:458][535]LogContentBrowser: Attempting asset rename: Material_004 -> Material_004
+[2024.01.27-01.10.35:466][535]LogContentBrowser: End creating deferred item Material_004
+[2024.01.27-01.10.36:050][551]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Material_004.Material_004
+[2024.01.27-01.10.36:055][551]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.10.36:055][551]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.10.36:198][551]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.10.36:198][551]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.27-01.10.36:198][551]MaterialEditorStats: Shader Count: 0
+[2024.01.27-01.10.36:203][551]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2024.01.27-01.10.36:335][553]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.01.27-01.10.36:335][553]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.27-01.10.36:335][553]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.27-01.10.36:335][553]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.27-01.10.36:335][553]MaterialEditorStats: Shader Count: 4
+[2024.01.27-01.10.37:842][709]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.10.37:842][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.10.38:043][709]LogViewport: Scene viewport resized to 563x690, mode Windowed.
+[2024.01.27-01.10.38:243][710]LogViewport: Scene viewport resized to 371x430, mode Windowed.
+[2024.01.27-01.10.38:318][711]LogViewport: Scene viewport resized to 147x127, mode Windowed.
+[2024.01.27-01.10.38:788][732]LogViewport: Scene viewport resized to 152x162, mode Windowed.
+[2024.01.27-01.10.39:813][788]LogViewport: Scene viewport resized to 376x438, mode Windowed.
+[2024.01.27-01.10.43:156][893]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/SpaceShip.SpaceShip
+[2024.01.27-01.10.43:202][893]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.10.43:202][893]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.10.43:941][893]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2024.01.27-01.10.54:079][274]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.10.54:079][274]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.27-01.10.54:079][274]MaterialEditorStats: Shader Count: 0
+[2024.01.27-01.10.54:191][276]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.01.27-01.10.54:191][276]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.27-01.10.54:191][276]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.27-01.10.54:191][276]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.27-01.10.54:191][276]MaterialEditorStats: Shader Count: 4
+[2024.01.27-01.10.55:338][312]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.10.55:338][312]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.27-01.10.55:338][312]MaterialEditorStats: Shader Count: 0
+[2024.01.27-01.10.55:424][314]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.27-01.10.55:424][314]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.27-01.10.55:424][314]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.27-01.10.55:424][314]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.27-01.10.55:424][314]MaterialEditorStats: Shader Count: 4
+[2024.01.27-01.10.57:417][373]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.10.57:417][373]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.01.27-01.10.57:417][373]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.10.57:417][373]MaterialEditorStats: Shader Count: 0
+[2024.01.27-01.10.57:465][375]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.01.27-01.10.57:465][375]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.27-01.10.57:465][375]MaterialEditorStats: Texture samplers: 3/16
+[2024.01.27-01.10.57:465][375]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.01.27-01.10.57:465][375]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.10.57:465][375]MaterialEditorStats: Shader Count: 2
+[2024.01.27-01.11.00:222][456]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.11.00:222][456]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.01.27-01.11.00:222][456]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.00:222][456]MaterialEditorStats: Shader Count: 0
+[2024.01.27-01.11.00:326][458]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.01.27-01.11.00:326][458]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.27-01.11.00:326][458]MaterialEditorStats: Texture samplers: 3/16
+[2024.01.27-01.11.00:326][458]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.01.27-01.11.00:326][458]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.00:326][458]MaterialEditorStats: Shader Count: 4
+[2024.01.27-01.11.04:624][593]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.11.04:624][593]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.01.27-01.11.04:624][593]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.04:624][593]MaterialEditorStats: Shader Count: 0
+[2024.01.27-01.11.04:666][595]MaterialEditorStats: Base pass shader: 200 instructions
+[2024.01.27-01.11.04:666][595]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.27-01.11.04:666][595]MaterialEditorStats: Texture samplers: 4/16
+[2024.01.27-01.11.04:666][595]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.01.27-01.11.04:666][595]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.04:666][595]MaterialEditorStats: Shader Count: 4
+[2024.01.27-01.11.06:567][648]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.11.06:567][648]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.01.27-01.11.06:567][648]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.06:567][648]MaterialEditorStats: Shader Count: 0
+[2024.01.27-01.11.06:680][650]MaterialEditorStats: Base pass shader: 200 instructions
+[2024.01.27-01.11.06:680][650]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.27-01.11.06:680][650]MaterialEditorStats: Texture samplers: 4/16
+[2024.01.27-01.11.06:680][650]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.01.27-01.11.06:680][650]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.06:680][650]MaterialEditorStats: Shader Count: 4
+[2024.01.27-01.11.08:398][701]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.11.08:398][701]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.01.27-01.11.08:398][701]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.08:398][701]MaterialEditorStats: Shader Count: 0
+[2024.01.27-01.11.12:300][813]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.27-01.11.12:300][813]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.11.12:300][813]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.01.27-01.11.12:300][813]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.12:300][813]MaterialEditorStats: Shader Count: 2
+[2024.01.27-01.11.12:521][816]MaterialEditorStats: Base pass shader: 203 instructions
+[2024.01.27-01.11.12:521][816]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.27-01.11.12:521][816]MaterialEditorStats: Texture samplers: 5/16
+[2024.01.27-01.11.12:521][816]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.01.27-01.11.12:521][816]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.12:521][816]MaterialEditorStats: Shader Count: 3
+[2024.01.27-01.11.12:581][817]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.11.12:581][817]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.01.27-01.11.12:581][817]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.12:581][817]MaterialEditorStats: Shader Count: 0
+[2024.01.27-01.11.14:179][860]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.27-01.11.14:179][860]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.11.14:179][860]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.01.27-01.11.14:179][860]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.14:179][860]MaterialEditorStats: Shader Count: 1
+[2024.01.27-01.11.14:485][870]MaterialEditorStats: Base pass shader: 203 instructions
+[2024.01.27-01.11.14:485][870]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.27-01.11.14:485][870]MaterialEditorStats: Texture samplers: 5/16
+[2024.01.27-01.11.14:485][870]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.01.27-01.11.14:485][870]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.14:485][870]MaterialEditorStats: Shader Count: 3
+[2024.01.27-01.11.14:868][881]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.11.14:868][881]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.01.27-01.11.14:868][881]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.14:868][881]MaterialEditorStats: Shader Count: 0
+[2024.01.27-01.11.14:997][883]MaterialEditorStats: Base pass shader: 203 instructions
+[2024.01.27-01.11.14:997][883]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.27-01.11.14:997][883]MaterialEditorStats: Texture samplers: 5/16
+[2024.01.27-01.11.14:997][883]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.01.27-01.11.14:997][883]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.14:997][883]MaterialEditorStats: Shader Count: 3
+[2024.01.27-01.11.18:044][976]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.11.18:044][976]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.01.27-01.11.18:044][976]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.18:044][976]MaterialEditorStats: Shader Count: 0
+[2024.01.27-01.11.20:296][ 40]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.27-01.11.20:296][ 40]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.11.20:296][ 40]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.01.27-01.11.20:296][ 40]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.20:296][ 40]MaterialEditorStats: Shader Count: 2
+[2024.01.27-01.11.20:363][ 42]MaterialEditorStats: Base pass shader: 211 instructions
+[2024.01.27-01.11.20:363][ 42]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.27-01.11.20:363][ 42]MaterialEditorStats: Texture samplers: 6/16
+[2024.01.27-01.11.20:363][ 42]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.01.27-01.11.20:363][ 42]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.20:363][ 42]MaterialEditorStats: Shader Count: 3
+[2024.01.27-01.11.22:144][ 92]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.27-01.11.22:144][ 92]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(6)
+[2024.01.27-01.11.22:144][ 92]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.22:144][ 92]MaterialEditorStats: Shader Count: 0
+[2024.01.27-01.11.22:522][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.01.27-01.11.22:532][103]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.11.22:638][103]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Material_004
+[2024.01.27-01.11.22:638][103]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_004379F3F7041243EE8A94CC5B0C5B3F0F5.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Material_004.uasset'
+[2024.01.27-01.11.22:650][103]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 673 ms)
+[2024.01.27-01.11.22:652][103]AssetCheck: New page: Asset Save: Material_004
+[2024.01.27-01.11.22:652][103]LogContentValidation: Display: Validating /Script/Engine.Material /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Material_004.Material_004
+[2024.01.27-01.11.24:372][157]MaterialEditorStats: Base pass shader: 214 instructions
+[2024.01.27-01.11.24:372][157]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.01.27-01.11.24:372][157]MaterialEditorStats: Texture samplers: 7/16
+[2024.01.27-01.11.24:372][157]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(6)
+[2024.01.27-01.11.24:372][157]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.24:372][157]MaterialEditorStats: Shader Count: 3
+[2024.01.27-01.11.24:687][168]LogMaterialEditor: Applying material Material_004
+[2024.01.27-01.11.24:880][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.01.27-01.11.25:762][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.01.27-01.11.25:823][168]MaterialEditorStats: Texture samplers: 6/16
+[2024.01.27-01.11.25:823][168]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(6)
+[2024.01.27-01.11.25:823][168]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.01.27-01.11.25:823][168]MaterialEditorStats: Shader Count: 2
+[2024.01.27-01.11.26:432][188]LogSlate: Window 'Material_004' being destroyed
+[2024.01.27-01.11.26:466][188]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.11.26:466][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.11.30:590][392]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.11.30:590][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.11.37:786][688]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/SpaceShip.SpaceShip
+[2024.01.27-01.11.37:796][688]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.11.37:796][688]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.11.38:553][688]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2024.01.27-01.11.42:479][912]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/SpaceShip) ...
+[2024.01.27-01.11.45:659][133]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.11.45:770][133]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/SpaceShip
+[2024.01.27-01.11.45:771][133]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/SpaceShipA4AA957C40453A327DF07BB0293A9CDE.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/SpaceShip.uasset'
+[2024.01.27-01.11.45:779][133]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 793 ms)
+[2024.01.27-01.11.45:780][133]AssetCheck: New page: Asset Save: SpaceShip
+[2024.01.27-01.11.45:780][133]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/SpaceShip.SpaceShip
+[2024.01.27-01.11.47:416][247]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.11.47:416][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.11.53:783][506]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-01.11.53:788][506]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-01.11.53:788][506]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-01.11.53:798][506]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 10 ms (total: 19 ms)
+[2024.01.27-01.11.53:798][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-01.11.53:798][506]PIE: New page: PIE session: ThirdPersonMap (Jan. 26, 2024, 3:11:53 p.m.)
+[2024.01.27-01.11.53:798][506]LogPlayLevel: Display: Creating online subsystem for client :Context_13
+[2024.01.27-01.11.53:801][506]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.01.27-01.11.53:819][507]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.11.53:824][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004507s)
+[2024.01.27-01.11.53:824][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004559s)
+[2024.01.27-01.11.53:845][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.01.27-01.11.53:848][507]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.11.53:848][507]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.11.53:848][507]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-01.11.53:849][507]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-01.11.53:849][507]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-01.11.53:849][507]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-01.11.53:849][507]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-01.11.53:850][507]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-01.11.53:850][507]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 74 ms)
+[2024.01.27-01.11.53:850][507]LogPlayLevel: PIE: World Init took: (0.002782s)
+[2024.01.27-01.11.53:850][507]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.01.27-01.11.53:850][507]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-01.11.53:850][507]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-01.11.53:850][507]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-01.11.53:850][507]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-01.11.53:850][507]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-01.11.53:850][507]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-01.11.53:850][507]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-01.11.53:850][507]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-01.11.53:851][507]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-01.11.53:851][507]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-01.11.53:851][507]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-01.11.53:854][507]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-01.11.53:895][507]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.27-01.11.53:896][507]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-01.11.53:896][507]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-01.11.53:896][507]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-01.11.53:897][507]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.01.27-01.11.53:897][507]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.01.27-01.11.53:899][507]LogInit: FAudioDevice initialized with ID 4.
+[2024.01.27-01.11.53:899][507]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.01.27-01.11.53:899][507]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.01.27-01.11.53:899][507]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2024.01.27-01.11.53:899][507]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.01.27-01.11.53:902][507]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-01.11.53:904][507]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.26-20.11.53
+[2024.01.27-01.11.53:904][507]LogWorld: Bringing up level for play took: 0.001837
+[2024.01.27-01.11.53:909][507]PIE: Server logged in
+[2024.01.27-01.11.53:910][507]PIE: Play in editor total start time 0.122 seconds.
+[2024.01.27-01.11.55:820][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.11.55:820][553]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.11.55:820][553]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.11.55:820][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.11.55:821][553]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-01.11.55:859][553]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-01.11.55:863][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.11.55:886][553]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-01.11.55:887][553]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.01.27-01.11.55:887][553]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.01.27-01.11.55:889][553]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.01.27-01.11.55:896][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.11.55:899][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.01.27-01.11.55:952][554]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.01.27-01.11.57:952][667]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2024.01.27-01.12.03:611][149]LogEditorTransaction: Undo Edit Static Mesh
+[2024.01.27-01.12.06:995][438]LogEditorTransaction: Redo Edit Static Mesh
+[2024.01.27-01.12.28:540][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.01.27-01.12.28:547][584]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.12.28:651][584]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.12.28:652][584]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacter1CF52FA64ABC4E3969C2568D2D63B96B.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.12.30:579][584]LogShaderCompilers: Display: ================================================
+[2024.01.27-01.12.30:579][584]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.27-01.12.30:579][584]LogShaderCompilers: Display: Total job queries 220, among them cache hits 145 (65.91%)
+[2024.01.27-01.12.30:579][584]LogShaderCompilers: Display: Tracking 68 distinct input hashes that result in 42 distinct outputs (61.76%)
+[2024.01.27-01.12.30:579][584]LogShaderCompilers: Display: RAM used: 1.52 MiB of 819.20 MiB budget. Usage: 0.19%
+[2024.01.27-01.12.30:579][584]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.27-01.12.30:579][584]LogShaderCompilers: Display: Shaders Compiled: 28
+[2024.01.27-01.12.30:579][584]LogShaderCompilers: Display: Jobs assigned 28, completed 28 (100%)
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display: Average time worker was idle: 8.33 s
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display: Time job spent in pending queue: average 0.54 s, longest 2.19 s
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display: Job execution time: average 1.34 s, max 3.90 s
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display: Job life time (pending + execution): average 1.88 s, max 3.99
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display: Shader code size: average 40.6 KiB, min 32.84 KiB, max 64.066 KiB
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14.27 s
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display: Jobs were issued in 28 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display: Average processing rate: 1.96 jobs/sec
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display: Total thread time: 30.964 s
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display: Total thread preprocess time: 2.738 s
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display: Percentage time preprocessing: 8.84%
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display: Effective parallelization: 2.17 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 2.16 sec, max 2.86 sec, min 1.79 sec)
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    4 times, average 1.99 sec, max 2.42 sec, min 1.61 sec)
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 1.95 sec, max 2.55 sec, min 1.46 sec)
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.55 sec, max 0.55 sec, min 0.55 sec)
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    4 times, average 0.48 sec, max 0.77 sec, min 0.32 sec)
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.86% of total time (compiled    4 times, average 2.16 sec, max 2.86 sec, min 1.79 sec)
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display:                                                 FLumenCardVS - 25.72% of total time (compiled    4 times, average 1.99 sec, max 2.42 sec, min 1.61 sec)
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 25.20% of total time (compiled    4 times, average 1.95 sec, max 2.55 sec, min 1.46 sec)
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.16% of total time (compiled    4 times, average 0.48 sec, max 0.77 sec, min 0.32 sec)
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display:                                             FDebugViewModePS - 1.77% of total time (compiled    1 times, average 0.55 sec, max 0.55 sec, min 0.55 sec)
+[2024.01.27-01.12.30:580][584]LogShaderCompilers: Display: ================================================
+[2024.01.27-01.12.30:599][584]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Material_004
+[2024.01.27-01.12.30:600][584]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/Material_004A5B677DE47CD6C45D8BDFE932AD74FEA.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Material_004.uasset'
+[2024.01.27-01.12.30:604][584]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.05 sec (total: 2.85 sec)
+[2024.01.27-01.12.30:606][584]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.27-01.12.30:606][584]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.12.30:606][584]LogContentValidation: Display: Validating /Script/Engine.Material /Game/ThirdPerson/Blueprints/Meshes/spaceship__1_/source/SpaceShip/Material_004.Material_004
+[2024.01.27-01.12.31:626][671]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.01.27-01.12.31:688][671]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.27-01.12.35:549][948]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-01.12.35:554][948]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-01.12.35:554][948]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-01.12.35:557][948]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 21 ms)
+[2024.01.27-01.12.35:557][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-01.12.35:557][948]PIE: New page: PIE session: ThirdPersonMap (Jan. 26, 2024, 3:12:35 p.m.)
+[2024.01.27-01.12.35:557][948]LogPlayLevel: Display: Creating online subsystem for client :Context_14
+[2024.01.27-01.12.35:561][948]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.01.27-01.12.35:580][949]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.12.35:585][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004956s)
+[2024.01.27-01.12.35:585][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005009s)
+[2024.01.27-01.12.35:611][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.01.27-01.12.35:614][949]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.12.35:615][949]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.12.35:615][949]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-01.12.35:616][949]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-01.12.35:616][949]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-01.12.35:616][949]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-01.12.35:616][949]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-01.12.35:617][949]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-01.12.35:617][949]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 76 ms)
+[2024.01.27-01.12.35:617][949]LogPlayLevel: PIE: World Init took: (0.002920s)
+[2024.01.27-01.12.35:617][949]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.01.27-01.12.35:617][949]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-01.12.35:617][949]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-01.12.35:617][949]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-01.12.35:617][949]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-01.12.35:617][949]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-01.12.35:617][949]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-01.12.35:617][949]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-01.12.35:617][949]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-01.12.35:618][949]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-01.12.35:618][949]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-01.12.35:618][949]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-01.12.35:621][949]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-01.12.35:660][949]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.27-01.12.35:660][949]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-01.12.35:660][949]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-01.12.35:660][949]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-01.12.35:661][949]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.01.27-01.12.35:661][949]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.01.27-01.12.35:663][949]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.01.27-01.12.35:663][949]LogInit: FAudioDevice initialized with ID 5.
+[2024.01.27-01.12.35:663][949]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.01.27-01.12.35:663][949]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2024.01.27-01.12.35:663][949]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.01.27-01.12.35:666][949]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-01.12.35:668][949]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.26-20.12.35
+[2024.01.27-01.12.35:668][949]LogWorld: Bringing up level for play took: 0.002010
+[2024.01.27-01.12.35:675][949]PIE: Server logged in
+[2024.01.27-01.12.35:675][949]PIE: Play in editor total start time 0.121 seconds.
+[2024.01.27-01.12.54:419][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.12.54:420][631]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.12.54:420][631]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.12.54:420][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.12.54:420][631]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-01.12.54:424][631]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-01.12.54:430][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.12.54:447][631]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-01.12.54:448][631]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.01.27-01.12.54:448][631]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.01.27-01.12.54:449][631]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.01.27-01.12.54:455][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.12.54:458][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.01.27-01.12.54:533][632]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.01.27-01.13.11:212][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.13.11:302][ 99]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.13.11:303][ 99]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacterD7E7488E46AAC47782458F8B94AC239D.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.13.11:311][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 2.95 sec)
+[2024.01.27-01.13.11:314][ 99]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-01.13.11:314][ 99]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.13.11:415][110]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.13.11:487][110]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.13.11:488][110]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacter6206184A4FFC85851B1C27889F8DA102.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.13.11:495][110]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 3.03 sec)
+[2024.01.27-01.13.11:497][110]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-01.13.11:497][110]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.13.12:397][211]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.01.27-01.13.12:516][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.27-01.13.13:801][265]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-01.13.13:806][265]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-01.13.13:806][265]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-01.13.13:807][265]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 23 ms)
+[2024.01.27-01.13.13:808][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-01.13.13:808][265]PIE: New page: PIE session: ThirdPersonMap (Jan. 26, 2024, 3:13:13 p.m.)
+[2024.01.27-01.13.13:808][265]LogPlayLevel: Display: Creating online subsystem for client :Context_15
+[2024.01.27-01.13.13:811][265]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.01.27-01.13.13:831][266]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.13.13:836][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005026s)
+[2024.01.27-01.13.13:836][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005084s)
+[2024.01.27-01.13.13:863][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.01.27-01.13.13:867][266]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.13.13:867][266]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.13.13:868][266]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-01.13.13:868][266]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-01.13.13:868][266]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-01.13.13:868][266]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-01.13.13:868][266]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-01.13.13:870][266]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-01.13.13:870][266]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 77 ms)
+[2024.01.27-01.13.13:870][266]LogPlayLevel: PIE: World Init took: (0.002598s)
+[2024.01.27-01.13.13:870][266]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.01.27-01.13.13:870][266]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-01.13.13:870][266]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-01.13.13:870][266]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-01.13.13:870][266]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-01.13.13:870][266]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-01.13.13:870][266]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-01.13.13:870][266]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-01.13.13:870][266]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-01.13.13:871][266]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-01.13.13:871][266]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-01.13.13:871][266]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-01.13.13:873][266]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-01.13.13:908][266]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.27-01.13.13:908][266]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-01.13.13:908][266]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-01.13.13:908][266]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-01.13.13:909][266]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.01.27-01.13.13:909][266]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.01.27-01.13.13:911][266]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.01.27-01.13.13:911][266]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.01.27-01.13.13:911][266]LogInit: FAudioDevice initialized with ID 6.
+[2024.01.27-01.13.13:911][266]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonMap'.
+[2024.01.27-01.13.13:911][266]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.01.27-01.13.13:914][266]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-01.13.13:916][266]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.26-20.13.13
+[2024.01.27-01.13.13:916][266]LogWorld: Bringing up level for play took: 0.001868
+[2024.01.27-01.13.13:921][266]PIE: Server logged in
+[2024.01.27-01.13.13:922][266]PIE: Play in editor total start time 0.116 seconds.
+[2024.01.27-01.13.29:061][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.13.29:061][797]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.13.29:061][797]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.13.29:061][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.13.29:061][797]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-01.13.29:082][797]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-01.13.29:089][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.13.29:107][797]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-01.13.29:108][797]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.01.27-01.13.29:108][797]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.01.27-01.13.29:110][797]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.01.27-01.13.29:115][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.13.29:118][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.01.27-01.13.29:160][798]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.01.27-01.14.27:508][416]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.14.27:689][416]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.14.27:690][416]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacterA7BE1CF6458BB5AC60987D9192FB9F98.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.14.27:699][416]LogFileHelpers: InternalPromptForCheckoutAndSave took 191 ms (total: 3.22 sec)
+[2024.01.27-01.14.27:701][416]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-01.14.27:701][416]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.14.28:400][470]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.14.28:481][470]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.14.28:482][470]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacter8275C902422ADA37A3C668B9870D2369.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.14.28:489][470]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 3.31 sec)
+[2024.01.27-01.14.28:490][470]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-01.14.28:490][470]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.14.29:871][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.01.27-01.14.31:528][707]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.01.27-01.14.31:595][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.01.27-01.14.32:808][742]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-01.14.32:813][742]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-01.14.32:813][742]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-01.14.32:815][742]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 25 ms)
+[2024.01.27-01.14.32:815][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-01.14.32:815][742]PIE: New page: PIE session: ThirdPersonMap (Jan. 26, 2024, 3:14:32 p.m.)
+[2024.01.27-01.14.32:815][742]LogPlayLevel: Display: Creating online subsystem for client :Context_16
+[2024.01.27-01.14.32:818][742]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.01.27-01.14.32:833][743]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.14.32:839][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006368s)
+[2024.01.27-01.14.32:839][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006527s)
+[2024.01.27-01.14.32:859][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.27-01.14.32:862][743]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.14.32:862][743]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.14.32:863][743]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-01.14.32:863][743]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-01.14.32:864][743]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-01.14.32:864][743]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-01.14.32:864][743]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-01.14.32:865][743]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-01.14.32:865][743]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 78 ms)
+[2024.01.27-01.14.32:865][743]LogPlayLevel: PIE: World Init took: (0.002585s)
+[2024.01.27-01.14.32:865][743]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.01.27-01.14.32:865][743]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-01.14.32:865][743]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-01.14.32:865][743]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-01.14.32:865][743]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-01.14.32:865][743]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-01.14.32:865][743]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-01.14.32:865][743]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-01.14.32:865][743]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-01.14.32:866][743]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-01.14.32:866][743]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-01.14.32:866][743]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-01.14.32:868][743]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-01.14.32:900][743]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.27-01.14.32:900][743]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-01.14.32:901][743]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-01.14.32:901][743]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-01.14.32:901][743]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.01.27-01.14.32:901][743]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.01.27-01.14.32:903][743]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.01.27-01.14.32:904][743]LogInit: FAudioDevice initialized with ID 7.
+[2024.01.27-01.14.32:904][743]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.01.27-01.14.32:904][743]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2024.01.27-01.14.32:904][743]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.27-01.14.32:906][743]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-01.14.32:908][743]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.26-20.14.32
+[2024.01.27-01.14.32:908][743]LogWorld: Bringing up level for play took: 0.001821
+[2024.01.27-01.14.32:913][743]PIE: Server logged in
+[2024.01.27-01.14.32:913][743]PIE: Play in editor total start time 0.101 seconds.
+[2024.01.27-01.14.45:060][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.14.45:060][200]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.14.45:060][200]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.14.45:060][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.14.45:060][200]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-01.14.45:086][200]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-01.14.45:093][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.14.45:112][200]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-01.14.45:112][200]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.27-01.14.45:113][200]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.27-01.14.45:114][200]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.27-01.14.45:120][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.14.45:123][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.01.27-01.14.45:187][201]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.01.27-01.15.12:618][262]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.15.12:754][262]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.15.12:755][262]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacterA0919AE0413CB242636B04BD513920C7.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.15.12:763][262]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 3.45 sec)
+[2024.01.27-01.15.12:764][262]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-01.15.12:765][262]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.15.13:331][306]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.01.27-01.15.13:405][306]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.27-01.15.14:740][347]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-01.15.14:745][347]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-01.15.14:745][347]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-01.15.14:747][347]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 27 ms)
+[2024.01.27-01.15.14:747][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-01.15.14:747][347]PIE: New page: PIE session: ThirdPersonMap (Jan. 26, 2024, 3:15:14 p.m.)
+[2024.01.27-01.15.14:747][347]LogPlayLevel: Display: Creating online subsystem for client :Context_17
+[2024.01.27-01.15.14:750][347]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.01.27-01.15.14:768][348]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.15.14:773][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005194s)
+[2024.01.27-01.15.14:773][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005244s)
+[2024.01.27-01.15.14:791][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.27-01.15.14:794][348]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.15.14:794][348]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.15.14:794][348]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-01.15.14:795][348]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-01.15.14:795][348]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-01.15.14:795][348]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-01.15.14:795][348]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-01.15.14:796][348]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-01.15.14:796][348]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 80 ms)
+[2024.01.27-01.15.14:796][348]LogPlayLevel: PIE: World Init took: (0.002544s)
+[2024.01.27-01.15.14:796][348]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.01.27-01.15.14:796][348]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-01.15.14:796][348]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-01.15.14:796][348]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-01.15.14:796][348]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-01.15.14:796][348]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-01.15.14:797][348]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-01.15.14:797][348]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-01.15.14:797][348]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-01.15.14:797][348]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-01.15.14:797][348]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-01.15.14:797][348]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-01.15.14:800][348]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-01.15.14:832][348]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.27-01.15.14:832][348]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-01.15.14:832][348]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-01.15.14:832][348]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-01.15.14:833][348]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.01.27-01.15.14:833][348]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.01.27-01.15.14:835][348]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.01.27-01.15.14:835][348]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.01.27-01.15.14:835][348]LogInit: FAudioDevice initialized with ID 8.
+[2024.01.27-01.15.14:835][348]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonMap'.
+[2024.01.27-01.15.14:835][348]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.01.27-01.15.14:837][348]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-01.15.14:840][348]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.26-20.15.14
+[2024.01.27-01.15.14:840][348]LogWorld: Bringing up level for play took: 0.001990
+[2024.01.27-01.15.14:845][348]PIE: Server logged in
+[2024.01.27-01.15.14:845][348]PIE: Play in editor total start time 0.1 seconds.
+[2024.01.27-01.15.16:779][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.15.16:780][402]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.15.16:780][402]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.15.16:780][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.15.16:780][402]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-01.15.16:783][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-01.15.16:788][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.15.16:810][402]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-01.15.16:810][402]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.01.27-01.15.16:810][402]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.01.27-01.15.16:812][402]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.01.27-01.15.16:818][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.15.16:821][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.27-01.15.16:870][403]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.01.27-01.15.52:824][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.15.52:991][ 20]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.15.52:992][ 20]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacter26EEB4004B57896BA7685D8AFEA6CF57.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.15.53:003][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave took 179 ms (total: 3.63 sec)
+[2024.01.27-01.15.53:005][ 20]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-01.15.53:005][ 20]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.15.53:061][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.15.53:146][ 24]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.15.53:147][ 24]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacter50DC11F04D9A0688454F9794AEE7D98D.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.15.53:154][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 3.72 sec)
+[2024.01.27-01.15.53:156][ 24]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-01.15.53:156][ 24]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.15.58:858][460]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.15.59:018][460]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.15.59:018][460]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacterC4E35D1446417D2303190485AD80642B.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.15.59:026][460]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 3.89 sec)
+[2024.01.27-01.15.59:028][460]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-01.15.59:028][460]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.15.59:046][461]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.15.59:119][461]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.15.59:120][461]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacter0F26991B488E4420E7B1068224A66D2D.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.15.59:127][461]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 3.97 sec)
+[2024.01.27-01.15.59:129][461]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-01.15.59:129][461]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.15.59:472][488]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.01.27-01.15.59:556][488]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.01.27-01.16.00:786][513]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-01.16.00:790][513]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-01.16.00:790][513]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-01.16.00:792][513]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 29 ms)
+[2024.01.27-01.16.00:792][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-01.16.00:793][513]PIE: New page: PIE session: ThirdPersonMap (Jan. 26, 2024, 3:16:00 p.m.)
+[2024.01.27-01.16.00:793][513]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2024.01.27-01.16.00:795][513]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.01.27-01.16.00:813][514]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.16.00:817][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004701s)
+[2024.01.27-01.16.00:817][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004754s)
+[2024.01.27-01.16.00:840][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.01.27-01.16.00:843][514]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.16.00:844][514]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.16.00:844][514]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-01.16.00:845][514]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-01.16.00:845][514]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-01.16.00:845][514]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-01.16.00:845][514]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-01.16.00:846][514]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-01.16.00:846][514]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 81 ms)
+[2024.01.27-01.16.00:846][514]LogPlayLevel: PIE: World Init took: (0.002884s)
+[2024.01.27-01.16.00:846][514]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.01.27-01.16.00:846][514]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-01.16.00:846][514]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-01.16.00:846][514]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-01.16.00:846][514]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-01.16.00:846][514]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-01.16.00:846][514]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-01.16.00:846][514]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-01.16.00:847][514]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-01.16.00:847][514]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-01.16.00:847][514]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-01.16.00:847][514]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-01.16.00:849][514]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-01.16.00:887][514]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken V3 X)
+[2024.01.27-01.16.00:887][514]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-01.16.00:888][514]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-01.16.00:888][514]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-01.16.00:888][514]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.01.27-01.16.00:888][514]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.01.27-01.16.00:891][514]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.01.27-01.16.00:891][514]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.01.27-01.16.00:891][514]LogInit: FAudioDevice initialized with ID 9.
+[2024.01.27-01.16.00:891][514]LogAudio: Display: Audio Device (ID: 9) registered with world 'ThirdPersonMap'.
+[2024.01.27-01.16.00:891][514]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.01.27-01.16.00:894][514]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-01.16.00:896][514]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.26-20.16.00
+[2024.01.27-01.16.00:896][514]LogWorld: Bringing up level for play took: 0.002120
+[2024.01.27-01.16.00:901][514]PIE: Server logged in
+[2024.01.27-01.16.00:902][514]PIE: Play in editor total start time 0.112 seconds.
+[2024.01.27-01.16.03:769][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.16.03:769][590]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.16.03:770][590]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.16.03:770][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.16.03:770][590]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-01.16.03:785][590]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-01.16.03:790][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.16.03:809][590]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-01.16.03:809][590]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.01.27-01.16.03:809][590]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.01.27-01.16.03:811][590]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.01.27-01.16.03:816][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.16.03:819][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.01.27-01.16.03:884][591]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.01.27-01.16.07:372][799]Cmd: TRANSACTION UNDO
+[2024.01.27-01.16.07:372][799]LogEditorTransaction: Undo Change Collision Profile
+[2024.01.27-01.16.07:722][801]Cmd: TRANSACTION UNDO
+[2024.01.27-01.16.07:722][801]LogEditorTransaction: Undo Remove Components
+[2024.01.27-01.16.08:196][803]Cmd: TRANSACTION UNDO
+[2024.01.27-01.16.08:196][803]LogEditorTransaction: Undo Add Component
+[2024.01.27-01.16.09:177][870]Cmd: TRANSACTION UNDO
+[2024.01.27-01.16.09:177][870]LogEditorTransaction: Undo Change Collision Profile
+[2024.01.27-01.16.10:047][930]Cmd: TRANSACTION UNDO
+[2024.01.27-01.16.10:047][930]LogEditorTransaction: Undo Edit Simulate Physics
+[2024.01.27-01.16.15:357][292]LogEditorTransaction: Undo Rename Component Variable
+[2024.01.27-01.16.16:286][340]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.01.27-01.16.16:392][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.01.27-01.16.17:420][428]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.16.17:541][428]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.16.17:542][428]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacterBE06AFE34565F68C1C5C6DB8594D724D.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.16.17:553][428]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 4.11 sec)
+[2024.01.27-01.16.17:555][428]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-01.16.17:555][428]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.16.24:338][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.16.24:421][ 42]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.16.24:422][ 42]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacter01EFF3E84EDE45D7548A96A724995A40.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.16.24:429][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 4.20 sec)
+[2024.01.27-01.16.24:431][ 42]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-01.16.24:431][ 42]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.16.24:521][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.16.24:592][ 51]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.16.24:593][ 51]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacterC74CB7FD404BADEBF8BD199BD53272CA.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.16.24:601][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 4.28 sec)
+[2024.01.27-01.16.24:603][ 51]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-01.16.24:603][ 51]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.16.24:724][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.16.24:790][ 63]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.16.24:791][ 63]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacterDEF7E399499174E33F303EBD0E7C0FF5.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.16.24:798][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 4.35 sec)
+[2024.01.27-01.16.24:800][ 63]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-01.16.24:800][ 63]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-01.16.25:329][121]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.01.27-01.16.25:432][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.27-01.16.39:637][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.27-01.16.39:645][497]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.16.39:746][497]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-01.16.39:747][497]LogSavePackage: Moving '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Saved/BP_ThirdPersonCharacterCF9FE8A241304E309C117FB92E698A9D.tmp' to '../../../../../VGD/Term 5/VGP223-Physics3/LunarLander/LunarLander/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-01.16.39:754][497]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 4.46 sec)
+[2024.01.27-01.16.39:755][497]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-01.16.39:755][497]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
